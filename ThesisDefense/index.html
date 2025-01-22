@@ -481,11 +481,11 @@ $$
 \begin{equation} 
 \begin{split} 
         \tilde{V}_\mathrm{dd}  
-        =&  f \left( 2 \tilde{S}_z^2 - \tilde{S}^2_x - \tilde{S}^2_y \right) { \color{blue} {\propto 3\tilde{S}_z^2 - \boldsymbol{S}^2 \sim \mathrm{OAT}}}\\ 
-         & +\Re[g] \left(  \tilde{S}_x\tilde{S}_z + \tilde{S}_z\tilde{S}_x \right) {\color{green} {\sim \mathrm{TACT}}}\\ 
-         & +\Im[g] \left( \tilde{S}_y \tilde{S}_z + \tilde{S}_z\tilde{S}_y \right)  {\color{green} {\sim \mathrm{TACT}}}\\ 
-         & +\Im[h] \left( \tilde{S}_x \tilde{S}_y + \tilde{S}_y\tilde{S}_x \right)  {\color{green} {\propto \tilde{S}_+^2 - \tilde{S}_-^2}} \\ 
-         & +\Re[h] \left(  \tilde{S}_x^2 - \tilde{S}_y^2 \right),  {\color{green} {\sim \mathrm{TACT}}}
+        =&  f \left( 2 \tilde{S}_z^2 - \tilde{S}^2_x - \tilde{S}^2_y \right) { \color{#1f7dad} {\propto 3\tilde{S}_z^2 - \boldsymbol{S}^2 \sim \mathrm{OAT}}}\\ 
+         & +\Re[g] \left(  \tilde{S}_x\tilde{S}_z + \tilde{S}_z\tilde{S}_x \right) {\color{#53257F} {\sim \mathrm{TACT}}}\\ 
+         & +\Im[g] \left( \tilde{S}_y \tilde{S}_z + \tilde{S}_z\tilde{S}_y \right)  {\color{#53257F} {\sim \mathrm{TACT}}}\\ 
+         & +\Im[h] \left( \tilde{S}_x \tilde{S}_y + \tilde{S}_y\tilde{S}_x \right)  {\color{#53257F} {\propto \tilde{S}_+^2 - \tilde{S}_-^2}} \\ 
+         & +\Re[h] \left(  \tilde{S}_x^2 - \tilde{S}_y^2 \right),  {\color{#53257F} {\sim \mathrm{TACT}}}
 \end{split} 
 \end{equation} 
 $$
@@ -817,8 +817,49 @@ Lifetime for fermions ~ 10-20 s
 
 Time scale tuned by **energy scales** and **atom number**.
 
-[Table with results here?]
+ <table>
+  <tr>
+    <th>Model</th>
+    <th>$N$</th>
+    <th>$J\ [E_{R}]$</th>
+    <th>$U\ [E_{R}]$</th>
+    <th>Other</th>
+    <th>$t_\mathrm{min}\ [ms]$</th>
+  </tr>
+  <tr>
+    <td>Bose+Dip.</td>
+    <td>10</td>
+    <td>100</td>
+    <td>1</td>
+    <td>$U_{\uparrow\downarrow} = 0.05 U$</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <td>Fermi+SOC</td>
+    <td>10</td>
+    <td>1</td>
+    <td>25</td>
+    <td>$\phi = \pi - \pi/5$</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <td>Fermi+SOC (open)</td>
+    <td>10</td>
+    <td>1</td>
+    <td>25</td>
+    <td>$\phi = \pi - \pi/5$</td>
+    <td>--</td>
+  </tr>
+  <tr>
+    <td>Bose+Ani</td>
+    <td>10</td>
+    <td>1</td>
+    <td>25</td>
+    <td>$U_{\uparrow\downarrow} = 0.95 U$</td>
+    <td>--</td>
+  </tr>
 
+</table> 
 
 Note:The main experimental constraint is coherence time, in which we can ignore thermal and two-body inelastic collisions. While quite short for bosons, in the order of 100s of ms, we can sustain coherence for fermions in the order of seconds.
 ----
@@ -829,7 +870,7 @@ Nonetheless, the main source for experimental imperfections affecting squeezing 
 
 **Spin Orbit Coupling in the Mott regime**
 
-> An intriguing problem is the differences in the behavior of the system depending on the choice of boundary conditions. The common opinion is that for a large system the differences between periodic and open boundary conditions become blurred. Intuition tells me that in the system examined in this dissertation, the key reason for the differences is the condition imposed on the phase of the laser beam, which can be any for open boundary conditions. Therefore, in the case of open boundary conditions, we get a much wider range of possibilities than in the case of periodic boundary conditions. I am curious about the Ph.D. candidate’s opinion whether this is really the main reason for the observed differences?
+> Intuition tells me that in the system examined in this dissertation, the key reason for the differences [in boundary conditions results] is the condition imposed on the phase of the laser beam, which can be any for open boundary conditions. [...] I am curious about the Ph.D. candidate’s opinion whether this is really the main reason for the observed differences?
 
 ----
 
@@ -870,16 +911,64 @@ $E_{q} = J_\mathrm{SE}\left(1 - \cos \left(\frac{\pi q}{N}\right)\right)$
 
 ---
 
+# Back-up Slides
+
+---
+
 ## Coherence of spin wave definitions
 
+$| m, $
+<span class="fragment fade-up">$\color{#1f7dad}\pm$</span>
+$ q\rangle \propto \pm \sum_{j} (p_{j}^{(q)})^\pm \hat{S}_j^{\pm} | m \mp 1\rangle$
+
+<br>
+
+Chosen so that
+``$\left(\tilde{S}_{q}^-\right)^\dagger = \tilde{S}_{q}^+$``
+
+----
+
+Under periodic boundary conditions we defined them as
+
 ``
 $$
-| m, q\rangle \propto \pm \sum_j (p_{j}^{(q)})^\pm \hat{S}_j^{\pm} | m \mp 1\rangle
+| m, q\rangle = \pm c_{{N}/{2}, \pm m }\sum_j e^{\pm i \frac{2\pi}{N} q j} \hat{S}_j^{\pm} | m \mp 1\rangle
 $$
 ``
 
+----
 
------
+Definition must return exactly the same state with both generators
+
+$|m, q\rangle^\pm = \tilde{S}_{q}^{\pm} |m\mp 1\rangle$
+
+----
+
+``
+$$
+\begin{align}
+|m,q\rangle^+ \propto& \tilde{S}_q^+ \left(\hat{S}^+\right)^{S+m-1}|-S\rangle \\
+\propto& \left(\hat{S}^+\right)^{S+m-1}\sum_j p_j^{(q)}|-S\rangle \\
+|m,q\rangle^- \propto& \tilde{S}_q^- \left(\hat{S}^+\right)^{S+m+1}|-S\rangle \\
+\propto& -\left(\hat{S}^+\right)^{S+m+1}\sum_j \left(p_j^{(q)}\right)^*|-S\rangle \\
+\end{align}
+$$
+``
+
+----
+
+Ignoring this means we need to take $\langle m, q| m, q'\rangle = \delta_{q,-q'}$
+
+<br>
+
+We can also choose either
+
+$| m, {\color{#1f7dad}\pm} q\rangle \propto \pm \sum_{j} (p_{j}^{(q)})^\pm \hat{S}_j^{\pm} | m \mp 1\rangle$
+
+or
+
+$| m, q\rangle \propto \pm \sum_{j} {\color{#1f7dad} {p_{j}^{(q)}}} \hat{S}_j^{\pm} | m \mp 1\rangle$
+
 
 
 
@@ -934,7 +1023,7 @@ $$
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {"transition":"fade","navigationMode":"default","<!--center":"false-->","<!--showNotes":"true-->","_":["slides.md"],"static":true,"static_dirs":"img,video"}, queryOptions);
+      var options = extend(defaultOptions, {"transition":"fade","navigationMode":"default","<!--center":"false-->","<!--showNotes":"true-->","_":["slides.md"],"static":"ThesisDefense","static_dirs":"img,video"}, queryOptions);
     </script>
 
 
