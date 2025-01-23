@@ -235,16 +235,16 @@ Notes:
 
 <div class='col'>
 
-- We test 'local realism' of squeezed states under occupation defects
-- Data-driven and based on idealized toy model
-- Equivalent to a convex optimization problem
+- Non-local Bell-type correlations <!--for squeezed states under occupation defects-->
+- Data-driven approach for Bell correlations
+- Lower bound derived from toy model
 
 </div>
 </div>
 
 $L(A,h) = \mathrm{Tr}(A\tilde{C}) + \vec{h}\cdot\vec{M} + M E_\max \ge 0$
 
-[T. Hernández Yanes et al, Arxiv:2409.02873 (Pre-print, 2024)](https://arxiv.org/abs/2409.02873)
+[T. Hernández Yanes et al, Arxiv:2409.02873 (2024)](https://arxiv.org/abs/2409.02873)
 
 ---
 
@@ -421,7 +421,7 @@ As $f_{c} \le 1$, expect faster dynamics than PBC.
 
 $\zeta(2)/M$ is less relevant.
 
-Expect $\lim_{M\to\infty}f_{c} = 1$.
+Expect $f_{c} = 1$ when deep in SF Regime.
 
 ----
 
@@ -582,6 +582,7 @@ $$
 [Syzranov et al, Spin–orbital dynamics in a system of polar molecules, Nat Commun 5, 5391 (2014)](https://www.nature.com/articles/ncomms6391)
 
 Note:It would be possible, but for this same result we would require some curved atom chain in a plane, as relative phase is now encoded in spatial distribution. Optical tweezers are a valid platform.
+<!--
 ----
 
 ### Spin-orbit coupling + clean spin exchange
@@ -597,6 +598,7 @@ $$
 ``
 
 Note: These terms present in our derivation of dipolar interactions can provide two-magnon excitations or spin exchange
+-->
 ----
 
 Alternatively, other methods like Floquet engineering
@@ -820,18 +822,20 @@ Time scale tuned by **energy scales** and **atom number**.
  <table>
   <tr>
     <th>Model</th>
+    <th>Species</th>
     <th>$N$</th>
-    <th>$J\ [E_{R}]$</th>
-    <th>$U\ [E_{R}]$</th>
+    <th>$J/E_{R}$</th>
+    <th>$U/E_{R}$</th>
+    <th>$\hbar/E_{R}$ [$\mu s$]</th>
     <th>Other</th>
-    <th>$t_\mathrm{min}\ [ms]$</th>
+    <th>$t_\mathrm{min}$ [s]</th>
   </tr>
   <tr>
     <td>Bose+Dip.</td>
     <td>10</td>
     <td>100</td>
     <td>1</td>
-    <td>$U_{\uparrow\downarrow} = 0.05 U$</td>
+    <td></td>
     <td>--</td>
   </tr>
   <tr>
@@ -851,7 +855,7 @@ Time scale tuned by **energy scales** and **atom number**.
     <td>--</td>
   </tr>
   <tr>
-    <td>Bose+Ani</td>
+    <td>Bose+Ani.</td>
     <td>10</td>
     <td>1</td>
     <td>25</td>
@@ -900,14 +904,9 @@ $E_{q} = J_\mathrm{SE}\left(1 - \cos \left(\frac{\pi q}{N}\right)\right)$
 
 ---
 
-### Questions from Reviewers
-## Dr. hab. Paweł Zin
-
----
-
 # Thank You
 
-<img src='img/pamela_hubbert_chappel.jpg' class='r-stretch'>
+<img src='img/chapel_2.jpg' class='r-stretch'>
 
 ---
 
@@ -957,7 +956,7 @@ $$
 
 ----
 
-Ignoring this means we need to take $\langle m, q| m, q'\rangle = \delta_{q,-q'}$
+Ignoring this means we need to take ${}^+\langle m, q| m, q'\rangle^- = \delta_{q,-q'}$
 
 <br>
 
