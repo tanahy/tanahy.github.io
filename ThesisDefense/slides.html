@@ -294,6 +294,29 @@ Note:ignored decoherence losses due to temperature, dephasing and losses as they
 <div class='container' style='font-size:.5em;'>
 
 <div>
+F. Ferlaino Group
+<img src='img/innsbruck_2.jpg' width='auto'>
+<br>
+<img height=60px src="img/logos/innsbruck.svg">
+</div>
+
+<div>
+L. Barbiero
+<img src='img/luca-barbiero.webp' width='auto'>
+<br>
+<img height=60px src="img/logos/torino.svg">
+
+</div>
+
+</div>
+
+---
+
+### Thank you
+
+<div class='container' style='font-size:.5em;'>
+
+<div>
 G. Žlabys
 <img height=125px width='auto' src="img/Giedrius.jpg">
 <br>
@@ -817,53 +840,44 @@ Lifetime for fermions ~ 10-20 s
 
 ----
 
-Time scale tuned by **energy scales** and **atom number**.
+$N = 100$
 
  <table>
   <tr>
     <th>Model</th>
-    <th>Species</th>
-    <th>$N$</th>
-    <th>$J/E_{R}$</th>
-    <th>$U/E_{R}$</th>
-    <th>$\hbar/E_{R}$ [$\mu s$]</th>
+    <th>Parameters</th>
     <th>Other</th>
-    <th>$t_\mathrm{min}$ [s]</th>
+    <th>$t_\mathrm{min}$[s]</th>
   </tr>
   <tr>
     <td>Bose+Dip.</td>
-    <td>10</td>
-    <td>100</td>
-    <td>1</td>
-    <td></td>
-    <td>--</td>
+    <td>
+    <a href='https://journals.aps.org/pra/abstract/10.1103/PhysRevA.102.013328)'>PRA 102, 13328 (2020)</a>    
+    </td>
+    <td>$\eta=0.05$</td>
+    <td>0.01</td>
   </tr>
   <tr>
     <td>Fermi+SOC</td>
-    <td>10</td>
-    <td>1</td>
-    <td>25</td>
-    <td>$\phi = \pi - \pi/5$</td>
-    <td>--</td>
+    <td><a href='https://www.nature.com/articles/nature20811'>Nat. 542, 66–70 (2017)</a></td>
+    <td>$\phi = \pi - \frac{2\pi}{N}$ $\Omega = \frac{E_{\phi}}{20}$</td>
+    <td>1.55</td>
   </tr>
   <tr>
-    <td>Fermi+SOC (open)</td>
-    <td>10</td>
-    <td>1</td>
-    <td>25</td>
-    <td>$\phi = \pi - \pi/5$</td>
+    <td>-- (OBC)</td>
     <td>--</td>
+    <td>--</td>
+    <td>0.77</td>
   </tr>
   <tr>
     <td>Bose+Ani.</td>
-    <td>10</td>
-    <td>1</td>
-    <td>25</td>
-    <td>$U_{\uparrow\downarrow} = 0.95 U$</td>
-    <td>--</td>
+    <td><a href='https://journals.aps.org/prx/abstract/10.1103/PhysRevX.9.041014'>PRX 9, 41014 (2019)</a></td>
+    <td>$\Delta = 0.98$</td>
+    <td>15.49</td>
   </tr>
 
 </table> 
+
 
 Note:The main experimental constraint is coherence time, in which we can ignore thermal and two-body inelastic collisions. While quite short for bosons, in the order of 100s of ms, we can sustain coherence for fermions in the order of seconds.
 ----
@@ -969,6 +983,36 @@ or
 $| m, q\rangle \propto \pm \sum_{j} {\color{#1f7dad} {p_{j}^{(q)}}} \hat{S}_j^{\pm} | m \mp 1\rangle$
 
 
+
+---
+### Example Hamiltonian: Two Axis Counter Twisting
+
+
+<div class='container'>
+
+<div class='col'>
+
+`$\hat{H}_\mathrm{TACT} = \chi (\hat{S}_z^2-\hat{S}_x^2) $` 
+
+`$\xi^2 \propto N^{-1}$`
+
+
+</div>
+
+<div class='col'>
+
+<img class='r-stretch' src="img/TACT_ilust.svg">
+
+</div>
+
+</div>
+
+---
+### Example Hamiltonian: Two Axis Counter Twisting
+
+<video controls class='r-stretch'>
+	<source data-src='video/Q function TACT, N=100, M=100, tf=0.23, chi=1, proj=hammer, mf_style=quiver.mp4' type="video/mp4" />
+</video>
 
 
           </textarea>
