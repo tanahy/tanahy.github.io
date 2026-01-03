@@ -1,0 +1,16 @@
+---
+title: "Slides"
+listing:
+  contents: 
+    - slides
+    - archived-slides.yaml
+  sort: "date desc"
+  type: table
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+

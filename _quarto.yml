@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  description: "Exploring reality, one model at a time."
+  feed: true
+  site-url: https://tanahy.github.io
+  title: "This Is a Pipe"
+  navbar:
+    right:
+      - about.qmd
+      - slides.qmd
+      - icon: github
+        href: https://github.com/tanahy
+      - icon: gitlab
+        href: https://gitlab.com/tanahy
+  format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+
+
+
