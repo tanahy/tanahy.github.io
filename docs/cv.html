@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Slides – This Is a Pipe</title>
+<title>Tanausú Hernández-Yanes – This Is a Pipe</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,14 +30,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -74,70 +71,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-institute','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-institute","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -302,7 +241,7 @@ window.Quarto = {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -319,11 +258,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./slides.html" aria-current="page"> 
+    <a class="nav-link" href="./slides.html"> 
 <span class="menu-text">Slides</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
+    <a class="nav-link active" href="./cv.html" aria-current="page"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
@@ -339,275 +278,187 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Slides</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="profile.jpg" class="about-image
+  rounded " style="width: 20em;">
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Tanausú Hernández-Yanes</h1>
+</div>
+<div class="quarto-title-meta">
+  </div>
+</header>
+    <div class="about-links">
+  <a href="https://www.linkedin.com/in/tanausuhernandez/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="https://gitlab.com/tanahy" class="about-link" rel="" target="">
+    <i class="bi bi-gitlab"></i>
+     <span class="about-link-text">Gitlab</span>
+  </a>
+  <a href="https://github.com/tanahy" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+  <a href="https://orcid.org/0000-0001-8982-9277" class="about-link" rel="" target="">
+    <i class="bi bi-person-check"></i>
+     <span class="about-link-text">ORCID</span>
+  </a>
+  <a href="https://arxiv.org/search/?searchtype=author&amp;query=Yanes\%2C+T+H" class="about-link" rel="" target="">
+    <i class="bi bi-journals"></i>
+     <span class="about-link-text">Arxiv</span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
+
+<p>Postdoctoral theoretical physics researcher specialized in atomic physics with a passion for quantum mechanics, outreach, social entrepeneurship and open source projects.</p>
+<p>I am highly skilled in both theoretical and numerical calculations. My fields of interest are foundations of quantum mechanics, AMO physics, quantum information and thermodynamics.</p>
+<p>I have plenty of experience working with teams, both as a leader and as a proactive member.</p>
+<section id="education" class="level2">
+<h2 data-anchor-id="education">Education</h2>
+<p>Ph.D.&nbsp;Physics Internship | Oct 23 - Oct 24</p>
+<ul>
+<li>University of Innsbruck</li>
+<li>Project: Out of Equilibrium Dynamics of an Ultra-Cold Dipolar Bosonic Gas in a Two-Dimensional Optical Lattice</li>
+<li>Supervised by Prof.&nbsp;Francesca Ferlaino</li>
+</ul>
+<p>Ph.D.&nbsp;Physics | Oct 20 - Jan 25</p>
+<ul>
+<li>Institute of Physics PAS</li>
+<li>Thesis: Practical Spin-Squeezing with Ultra-Cold Atoms in Optical Lattices</li>
+<li>Supervised by Dr.&nbsp;Hab. Emilia Witkowska</li>
+</ul>
+<p>M.Sc. Astrophysics Internship | Jul 19 - Sep 19</p>
+<ul>
+<li>University of Lisbon</li>
+<li>Project: Kirigami Applied on Molecular Self-Folding Mechanisms</li>
+<li>Supervised by Dr.&nbsp;C.S. Dias and Dr.&nbsp;N. A. M. Araujo</li>
+</ul>
+<p>M.Sc. Astrophysics, Esp. in Estructure of Matter | Sep 16 - Sep 19</p>
+<ul>
+<li>Universidad de La Laguna</li>
+<li>Thesis: Quantum Langevin Equations, Energy Transport Properties in Harmonic Systems.</li>
+<li>Supervised by Prof.&nbsp;A. R. García and Dr.&nbsp;J. P. P. González</li>
+</ul>
+<p>B.Sc. Physics (Erasmus) | Sep 13 - Jun 14</p>
+<ul>
+<li>University of Durham</li>
+<li>Lab Project: Optical Properties of Ruby and CdSe Quantum Dots</li>
+<li>Supervised by Dr.&nbsp;M.R.C. Hunt</li>
+</ul>
+<p>B.Sc. Physics | Sep 11 - Sep 15</p>
+<ul>
+<li>Universidad de La Laguna</li>
+<li>Thesis: Heat Transport in Atomic Systems</li>
+<li>Supervised by: Prof.&nbsp;A. R. García</li>
+</ul>
+</section>
+<section id="research-positions" class="level2">
+<h2 data-anchor-id="research-positions">Research Positions</h2>
+<p>Assistant Professor | Feb 25 - Dec 25</p>
+<ul>
+<li>Jagiellonian University in Kraków</li>
+<li>Project: Size-Independent Nonstabilizerness in Metrological States</li>
+<li>Prof.&nbsp;Jakub Zakrzewski’s group</li>
+</ul>
+</section>
+<section id="publications" class="level2">
+<h2 data-anchor-id="publications">Publications</h2>
+<p><strong>T. Hernández-Yanes</strong>, P. Sierant, J. Zakrzewski, and M. Płodzień, <em>Non-stabilizerness in quantum-enhanced metrological protocols</em>, <a href="https://doi.org/10.48550/arXiv.2510.01380">arXiv:2510.01380 (2025)</a></p>
+<p><strong>T. Hernández-Yanes</strong>, Y. Bamaara, A. Sinatra, and E. Witkowska, <em>Bounds on detection of Bell correlations with entangled ultra-cold atoms in optical lattices under occupation defects</em>, <a href="https://doi.org/10.1103/PhysRevA.111.023312">Phys. Rev.&nbsp;A 111, 023312 (2025)</a></p>
+<p><strong>T. Hernández-Yanes</strong>, A. Niezgoda, and E. Witkowska, <em>Exploring spin squeezing in the Mott insulating regime: Role of anisotropy, inhomogeneity, and hole doping</em>, <a href="https://doi.org/10.1103/PhysRevB.109.214310">Phys. Rev.&nbsp;B 109, 214310 (2024)</a></p>
+<p><strong>T. Hernández-Yanes</strong>, G. Žlabys, M. Płodzień, D. Burba, M. Mackoit Sinkevičienė, E. Witkowska and G. Juzeliūnas, <em>Spin squeezing in open Heisenberg spin chains</em>, <a href="https://doi.org/10.1103/PhysRevB.108.104301">Phys. Rev.&nbsp;B 108, 104301 (2023)</a></p>
+<p>M. Dziurawiec, <strong>T. Hernández-Yanes</strong>, M. Płodzień, M. Gajda, M. Lewenstein, and E. Witkowska, <em>Accelerating many-body entanglement generation by dipolar interactions in the Bose-Hubbard model</em>, <a href="https://doi.org/10.1103/PhysRevA.107.013311">Phys. Rev.&nbsp;A 107, 013311 (2023)</a></p>
+<p><strong>T. Hernández-Yanes</strong>, M. Płodzień, M. Mackoit Sinkevičienė, G. Žlabys, G. Juzeliūnas, and E. Witkowska, <em>One- and Two-Axis Squeezing via Laser Coupling in an Atomic Fermi-Hubbard Model</em>, <a href="https://doi.org/10.1103/PhysRevLett.129.090403">Phys. Rev.&nbsp;Lett. 129, 090403 (2022)</a></p>
+</section>
+<section id="lectures" class="level2">
+<h2 data-anchor-id="lectures">Lectures</h2>
+<p><a href="https://gitlab.com/tanahy/cophyca">Computational Physics of Cold Atoms</a> | Oct 22 - Jan 23</p>
+<ul>
+<li>Institute of Physics PAS</li>
+<li><strong>T. Hernández-Yanes</strong>, M. Kruk, and E. Witkowska</li>
+<li>Responsible for preparing and imparting two thirds of the lectures of the course.</li>
+</ul>
+</section>
+<section id="awards-and-scholarships" class="level2">
+<h2 data-anchor-id="awards-and-scholarships">Awards and Scholarships</h2>
+<p>Ph.D.&nbsp;Thesis Awarded with Distinction | Jan 25</p>
+<p>NAWA Prelidium BIS I Fellowship | Sep 23 - Mar 24</p>
+<p>Best Publication of Institute of Physics PAS 2022 | May 23</p>
+</section>
+<section id="research-interests" class="level2">
+<h2 data-anchor-id="research-interests">Research Interests</h2>
+<ul>
+<li>Fundamental Physics</li>
+<li>AMO Physics</li>
+<li>Quantum Metrology</li>
+<li>Quantum Information</li>
+<li>Thermodynamics</li>
+</ul>
+</section>
+<section id="other-interests" class="level2">
+<h2 data-anchor-id="other-interests">Other Interests</h2>
+<ul>
+<li>Science Communications</li>
+<li>Social Entrepeneurship</li>
+<li>Electronics</li>
+<li>Digital Fabrication</li>
+<li>Travel</li>
+</ul>
+</section>
+<section id="presentations" class="level2">
+<h2 data-anchor-id="presentations">Presentations</h2>
+<p>See <a href="./slides.html">Slides</a>.</p>
+</section>
+<section id="software-development" class="level2">
+<h2 data-anchor-id="software-development">Software Development</h2>
+<p><a href="https://summerofcode.withgoogle.com/archive/2023/projects/gqlTqNAb">On-Machine Inspection</a> | Jun 23 - Sep 23</p>
+<ul>
+<li>Google Summer of Code 2023 - FreeCAD</li>
+<li>Python, C++</li>
+</ul>
+<p><a href="https://gitlab.com/tanahy/1d-hubbard-model">Exact Diagonalization Library “Hubbard”</a> | Jan 21 - Present</p>
+<ul>
+<li>Python</li>
+</ul>
+</section>
+<section id="outreach-and-event-organization" class="level2">
+<h2 data-anchor-id="outreach-and-event-organization">Outreach and Event Organization</h2>
+<p>EPS Young Minds Program | Sep 19 - Mar 24</p>
+<ul>
+<li>Action Commitee member of the Young Minds program</li>
+</ul>
+<p>Space Apps Challenge Tenerife 2017 | Jan 17 - Abr 17</p>
+<ul>
+<li>Main organizer</li>
+</ul>
+<p>Science Hack Day Tenerife | Sep 14 - May 16</p>
+<ul>
+<li>Main organizer, editions 2015 and 2016</li>
+<li>Sponsors: FECYT, ULL, EPS and others</li>
+</ul>
+<p>Orotava Hackerspace | May 13 - May 19</p>
+<ul>
+<li>Cofounder and President</li>
+</ul>
+<p>COEFFIS VI (ULL) | Oct 12 - Sep 13</p>
+<ul>
+<li>Organizing Commitee for the VI Physics Students Congress</li>
+</ul>
 
 
-
-
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-Date
-</th>
-
-<th>
-Title
-</th>
-
-<th>
-institute
-</th>
-
-<th>
-Categories
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-categories="YXJjaGl2ZWQlMkNpbnRlcm5hbCUyQ2pvdXJuYWwlMjBjbHViJTJDbXBlbWJhJTIwZWZmZWN0" data-listing-date-sort="1764630000000" data-listing-title-sort="Microscopic origin of the quantum Mpemba effect in integrable systems">
-<td>
-<span class="listing-date">Dec 2, 2025</span>
-</td>
-<td>
-<a href="archived/GroupMeetingDec25/slides.html" class="title listing-title">Microscopic origin of the quantum Mpemba effect in integrable systems</a>
-</td>
-<td>
-<span class="listing-institute">Group Meeting UJ</span>
-</td>
-<td>
-<span class="listing-categories">archived, internal, journal club, mpemba effect</span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-categories="YXJjaGl2ZWQlMkNzZW1pbmFyJTJDcXVhbnR1bSUyMGluZm9ybWF0aW9u" data-listing-date-sort="1764543600000" data-listing-title-sort="Relating Non-stabilizerness to Other Quantum Resources">
-<td>
-<span class="listing-date">Dec 1, 2025</span>
-</td>
-<td>
-<a href="archived/QISeminar25/slides.html" class="title listing-title">Relating Non-stabilizerness to Other Quantum Resources</a>
-</td>
-<td>
-<span class="listing-institute">Chaos i Informacja Kwantowa UJ</span>
-</td>
-<td>
-<span class="listing-categories">archived, seminar, quantum information</span>
-</td>
-
-</tr>
-
-<tr data-index="2" data-categories="YXJjaGl2ZWQlMkNkZWZlbnNlJTJDc3BpbiUyMHNxdWVlemluZyUyQ1BoRA==" data-listing-date-sort="1761951600000" data-listing-title-sort="Practical Spin-Squeezing with Ultra-Cold Atoms in Optical Lattices">
-<td>
-<span class="listing-date">Nov 1, 2025</span>
-</td>
-<td>
-<a href="archived/ScientificCouncil24/slides.html" class="title listing-title">Practical Spin-Squeezing with Ultra-Cold Atoms in Optical Lattices</a>
-</td>
-<td>
-<span class="listing-institute">IFPAN Scientific Council</span>
-</td>
-<td>
-<span class="listing-categories">archived, defense, spin squeezing, PhD</span>
-</td>
-
-</tr>
-
-<tr data-index="3" data-categories="YXJjaGl2ZWQlMkNzZW1pbmFyJTJDcXVhbnR1bSUyMGluZm9ybWF0aW9u" data-listing-date-sort="1761519600000" data-listing-title-sort="Non-stabilizerness in quantum-enhanced metrological protocols">
-<td>
-<span class="listing-date">Oct 27, 2025</span>
-</td>
-<td>
-<a href="archived/KrakowSeminar25_2/slides.html" class="title listing-title">Non-stabilizerness in quantum-enhanced metrological protocols</a>
-</td>
-<td>
-<span class="listing-institute">AOD Seminar at JU</span>
-</td>
-<td>
-<span class="listing-categories">archived, seminar, quantum information</span>
-</td>
-
-</tr>
-
-<tr data-index="4" data-categories="YXJjaGl2ZWQlMkNzZW1pbmFyJTJDcXVhbnR1bSUyMGluZm9ybWF0aW9u" data-listing-date-sort="1744581600000" data-listing-title-sort="Spin Squeezing and Bell Correlations in a t-J Model with Occupation Defects">
-<td>
-<span class="listing-date">Apr 14, 2025</span>
-</td>
-<td>
-<a href="archived/KrakowSeminar25/slides.html" class="title listing-title">Spin Squeezing and Bell Correlations in a t-J Model with Occupation Defects</a>
-</td>
-<td>
-<span class="listing-institute">AOD Seminar at JU</span>
-</td>
-<td>
-<span class="listing-categories">archived, seminar, quantum information</span>
-</td>
-
-</tr>
-
-<tr data-index="5" data-categories="YXJjaGl2ZWQlMkNpbnRlcm5hbCUyQ2RpcG9sYXIlMkNsYXR0aWNl" data-listing-date-sort="1743458400000" data-listing-title-sort="Strict Conditions for Confinement in the extended Bose-Hubbard model">
-<td>
-<span class="listing-date">Apr 1, 2025</span>
-</td>
-<td>
-<a href="archived/GroupMeetingApril25/slides.html" class="title listing-title">Strict Conditions for Confinement in the extended Bose-Hubbard model</a>
-</td>
-<td>
-<span class="listing-institute">Group Meeting UJ</span>
-</td>
-<td>
-<span class="listing-categories">archived, internal, dipolar, lattice</span>
-</td>
-
-</tr>
-
-<tr data-index="6" data-categories="YXJjaGl2ZWQlMkNkZWZlbnNlJTJDc3BpbiUyMHNxdWVlemluZyUyQ1BoRA==" data-listing-date-sort="1737932400000" data-listing-title-sort="Practical Spin-Squeezing with Ultra-Cold Atoms in Optical Lattices">
-<td>
-<span class="listing-date">Jan 27, 2025</span>
-</td>
-<td>
-<a href="archived/ThesisDefense/slides.html" class="title listing-title">Practical Spin-Squeezing with Ultra-Cold Atoms in Optical Lattices</a>
-</td>
-<td>
-<span class="listing-institute">Doctoral Thesis Defense</span>
-</td>
-<td>
-<span class="listing-categories">archived, defense, spin squeezing, PhD</span>
-</td>
-
-</tr>
-
-<tr data-index="7" data-categories="YXJjaGl2ZWQlMkNsYXR0aWNlJTJDZXhwYW5zaW9uJTJDZGlwb2xhcg==" data-listing-date-sort="1722290400000" data-listing-title-sort="Big Group Meeting">
-<td>
-<span class="listing-date">Jul 30, 2024</span>
-</td>
-<td>
-<a href="archived/BMJ24/slides.html" class="title listing-title">Big Group Meeting</a>
-</td>
-<td>
-<span class="listing-institute">Ferlaino’s Group, Innsbruck</span>
-</td>
-<td>
-<span class="listing-categories">archived, lattice, expansion, dipolar</span>
-</td>
-
-</tr>
-
-<tr data-index="8" data-categories="YXJjaGl2ZWQlMkNsYXR0aWNlJTJDZXhwYW5zaW9uJTJDZGlwb2xhcg==" data-listing-date-sort="1720389600000" data-listing-title-sort="Theory Weekly Meeting">
-<td>
-<span class="listing-date">Jul 8, 2024</span>
-</td>
-<td>
-<a href="archived/w28/w28.html" class="title listing-title">Theory Weekly Meeting</a>
-</td>
-<td>
-<span class="listing-institute">Ferlaino’s Theory Group, Innsbruck</span>
-</td>
-<td>
-<span class="listing-categories">archived, lattice, expansion, dipolar</span>
-</td>
-
-</tr>
-
-<tr data-index="9" data-categories="YXJjaGl2ZWQlMkNsYXR0aWNlJTJDZXhwYW5zaW9uJTJDZGlwb2xhcg==" data-listing-date-sort="1719180000000" data-listing-title-sort="Theory Weekly Meeting">
-<td>
-<span class="listing-date">Jun 24, 2024</span>
-</td>
-<td>
-<a href="archived/w26/w26.html" class="title listing-title">Theory Weekly Meeting</a>
-</td>
-<td>
-<span class="listing-institute">Ferlaino’s Theory Group, Innsbruck</span>
-</td>
-<td>
-<span class="listing-categories">archived, lattice, expansion, dipolar</span>
-</td>
-
-</tr>
-
-<tr data-index="10" data-categories="YXJjaGl2ZWQlMkNsYXR0aWNlJTJDZXhwYW5zaW9uJTJDZGlwb2xhcg==" data-listing-date-sort="1716156000000" data-listing-title-sort="Theory Weekly Meeting">
-<td>
-<span class="listing-date">May 20, 2024</span>
-</td>
-<td>
-<a href="archived/w21/w21.html" class="title listing-title">Theory Weekly Meeting</a>
-</td>
-<td>
-<span class="listing-institute">Ferlaino’s Theory Group, Innsbruck</span>
-</td>
-<td>
-<span class="listing-categories">archived, lattice, expansion, dipolar</span>
-</td>
-
-</tr>
-
-<tr data-index="11" data-categories="YXJjaGl2ZWQlMkNZb3VuZyUyME1pbmRzJTJDRVBT" data-listing-date-sort="1711321200000" data-listing-title-sort="Networking Session">
-<td>
-<span class="listing-date">Mar 25, 2024</span>
-</td>
-<td>
-<a href="archived/EPSForum24/slides.html" class="title listing-title">Networking Session</a>
-</td>
-<td>
-<span class="listing-institute">EPS Forum 2024, Berlin</span>
-</td>
-<td>
-<span class="listing-categories">archived, Young Minds, EPS</span>
-</td>
-
-</tr>
-
-<tr data-index="12" data-categories="YXJjaGl2ZWQlMkNsYXR0aWNlJTJDZXhwYW5zaW9uJTJDZGlwb2xhcg==" data-listing-date-sort="1701298800000" data-listing-title-sort="Optimal Spin Squeezing with extended Hubbard models">
-<td>
-<span class="listing-date">Nov 30, 2023</span>
-</td>
-<td>
-<a href="archived/Innsbruck23/slides.html" class="title listing-title">Optimal Spin Squeezing with extended Hubbard models</a>
-</td>
-<td>
-<span class="listing-institute">Ultra-cold Seminar, Innsbruck</span>
-</td>
-<td>
-<span class="listing-categories">archived, lattice, expansion, dipolar</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</section>
+</main></div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -623,13 +474,6 @@ Categories
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

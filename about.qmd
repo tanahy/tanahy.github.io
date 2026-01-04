@@ -4,16 +4,33 @@ image: profile.jpg
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/tanausuhernandez/
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/tanahy
 
 ---
 
-About this blog
+### About me
+
+My name is Tanausú Hernández-Yanes, born and raised in Canary Islands, Spain.
+I am a theoretical physicist working in quantum-related topics like quantum metrology, quantum information, and time crystals.
+I have a passion for science outreach, science visualization, and digital fabrication (3D printing, laser cutting, CNC milling).
+I have a PhD in atomic physics and am currently working as a postdoctoral researcher at Jagiellonian University under Prof. Kzrysztof Sacha.
+
+### About the blog
+
+*This Is a Pipe* is a direct reference to Magritte's painting *The Treachery of Images*, tightly bound to the concept of simulation and our perception of physical reality.
+
+I do not plan to provoke any philosophers or otherwise with this statement, 
+but I want to playfully highlight how effective scientific inquiry has carried us in understanding reality with a big caveat: **we test reality against a model, reality itself is intractable**.
+Science allows us to come up with very precise models for any phenomena we come across, but a tighly working model is not a guarantee that the model represents reality faithfully. 
+In fact, scientific progress happens when models break down, either from inside (the theory) or outside (the experiment).
+To live happily with this perturbing fact we must accept the absurd, the fact that our models describe reality, until they do not, so we just need a better model!
+To live critically is to believe, to tell ourselves the sensible lie, that the model which adjusts best to reality *is* reality, until it breaks and we must embrace uncertainty without a second tought. 
+To accept that the picture that represents a pipe is, for all purposes, a pipe as well.
+
+This blog is my attempt to try to visualize and explain physics models and ideas relevant to current research that explain some part of reality. 
+I want to experiment with representations and physicalizations, so expect some playful attempts at bringing those ideas to life in different digital and physical forms.

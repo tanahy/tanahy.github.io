@@ -11,18 +11,16 @@ website:
   title: "This Is a Pipe"
   navbar:
     right:
-      - about.qmd
       - slides.qmd
-      - icon: github
-        href: https://github.com/tanahy
-      - icon: gitlab
-        href: https://gitlab.com/tanahy
+      - text: "CV"
+        href: cv.qmd
+      - about.qmd
+
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: minty
+      dark: superhero
     css: styles.css
-
 
 

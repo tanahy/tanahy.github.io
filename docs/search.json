@@ -11,189 +11,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "About me\nMy name is Tanausú Hernández-Yanes, born and raised in Canary Islands, Spain. I am a theoretical physicist working in quantum-related topics like quantum metrology, quantum information, and time crystals. I have a passion for science outreach, science visualization, and digital fabrication (3D printing, laser cutting, CNC milling). I have a PhD in atomic physics and am currently working as a postdoctoral researcher at Jagiellonian University under Prof. Kzrysztof Sacha.\n\n\nAbout the blog\nThis Is a Pipe is a direct reference to Magritte’s painting The Treachery of Images, tightly bound to the concept of simulation and our perception of physical reality.\nI do not plan to provoke any philosophers or otherwise with this statement, but I want to playfully highlight how effective scientific inquiry has carried us in understanding reality with a big caveat: we test reality against a model, reality itself is intractable. Science allows us to come up with very precise models for any phenomena we come across, but a tighly working model is not a guarantee that the model represents reality faithfully. In fact, scientific progress happens when models break down, either from inside (the theory) or outside (the experiment). To live happily with this perturbing fact we must accept the absurd, the fact that our models describe reality, until they do not, so we just need a better model! To live critically is to believe, to tell ourselves the sensible lie, that the model which adjusts best to reality is reality, until it breaks and we must embrace uncertainty without a second tought. To accept that the picture that represents a pipe is, for all purposes, a pipe as well.\nThis blog is my attempt to try to visualize and explain physics models and ideas relevant to current research that explain some part of reality. I want to experiment with representations and physicalizations, so expect some playful attempts at bringing those ideas to life in different digital and physical forms."
   },
   {
-    "objectID": "archived/GroupMeetingApril25/slides.html",
-    "href": "archived/GroupMeetingApril25/slides.html",
-    "title": "slides",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "This Is a Pipe",
     "section": "",
-    "text": "\\[\n\\begin{align}\n\\hat{H} =& -J \\sum_{j} (\\hat{b}_{j+1}^\\dagger \\hat{b}_j +  \\mathrm{h.c.}) \\\\\n&+ \\frac{U}{2} \\sum_{j} \\hat{n}_j(\\hat{n}_j - 1) \\\\\n&+ \\sum_{i &lt; j}^\\text{cutoff} \\frac{V_{ij}}{|i-j|^3}\\hat{n}_i \\hat{n}_j,\n\\end{align}\n\\]\n\n\n\n\n\n\\(J \\ll U, V\\)\n\\(U \\to \\infty\\)\n\n\n\n\n\n \nL. Barbiero et al, Out-of-equilibrium states and quasi-many-body localization in polar lattice gases, Phys. Rev. B 92, 180406(R) (2015)\n\n\n\n\nA. J. Daley et al, Repulsively Bound Atom Pairs: Overview, Simulations and Links, AIP Conf. Proc. 869, 212–218 (2006)\nM. Valiente and D. Petrosyan, Scattering resonances and two-particle bound states of the extended Hubbard model, Journal of Physics B, Vol. 42 (2009)\n\n\n\n\n\n\n\nheight:500px\n\n\n\n\n\n\nCan we find states of equal energy to that of a cluster?\n\n\n\n\n\nValues of \\(U\\) where, at least, one resonant state exists at a given perturbation order (number of hops):\n\n\n\n\n\nFrom cluster to another state in two hops\n\\[\n\\hat{H}_{\\mathrm{eff},i\\neq j}^{(2)} = \\frac{1}{2}\\sum_l \\left(  \\frac{\\hat{V}_{il}\\hat{V}_{lj}}{E_i - E_l} + \\frac{\\hat{V}_{jl}\\hat{V}_{li}}{E_j - E_l} \\right)\n\\]\n\n\n\n\nFrom cluster to another state in two hops\n\n\n\n\n\nExamples of CoM conserving Fock states after two hops \\[\\ket{\\dots, 1, 0, 3, 0, 1, \\dots}\\] \\[\\ket{2, 0, 1, \\dots, 1, 0, 2}\\] \\[\\ket{1, 0, 1, \\dots, 1, 0, 2}\\]\n\n\n\n\n\n\n\n\n\n\n\\(V=10J, N = 8, M = 20\\)\n\n\n\n\n\n\n\n\n\n\\(V = 50J\\)\nW. Li et al, Disorderless Quasi-localization of Polar Gases in One-Dimensional Lattices, PRL 124, 010404 (2020)\n\n\n\n\n\\(V = 50J\\)\n\n\n\n\n\n\n\n\nheight:400px\n\n\nL. Barbiero et al, Out-of-equilibrium states and quasi-many-body localization in polar lattice gases, Phys. Rev. B 92, 180406(R) (2015)\n\n\n\n\n\n\n\nheight:400px\n\n\nL. Barbiero et al, Out-of-equilibrium states and quasi-many-body localization in polar lattice gases, Phys. Rev. B 92, 180406(R) (2015)\n\n\n\n\n\n\n\n\n\n\nWei-Han Li et al, Hilbert Space Shattering and Disorder-Free Localization in Polar Lattice Gases, PRL 127, 260601 (2021)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresonances\n\n\n\n\n\n\n\n\n\nresonances\n\n\n\n\n\n\n\\(N = 5, V = 10J, U = 17J, dt = 0.1/J\\)\n\n\n\nresonances\n\n\n\n\n\n\n\n\n\nresonances\n\n\n\n\n\n\n\n\n\nresonances\n\n\n\n\n\n\n\n\nExpansion can be anisotropic, depending on dipole polarization\n\n\n \n \n\n\n\n\n\\(J = 1 Hz, V = 10 J, \\theta= 0, \\phi = 0\\)\n\n \n\n\n\n\n\\(J = 1 Hz, V = 31 J, \\sin\\theta= \\sqrt{2/3}, \\phi = \\pi/4\\)\n\n\n\n\n\n\n\\(J = 1 Hz, V = 50 J, \\theta= 0.1982\\pi, \\phi = 0.7953\\pi\\)\n\n\n\n\nheight:350px\n\n\n\n\n\n\n\nIsotropic dipolar interactions\n\n\n\n\n\n\nWe require \\(U &gt; 4V\\) to see confinement-related phenomena at the second-order time scales\nResults like dimerization, quasi-localization, and Hilbert space shattering are affected\n2D lattice can show anisotropic expansion rate at \\(U\\to\\infty\\)\nResults also dependent on finite U in a similar fashion"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#extended-bose-hubbard-hamiltonian",
-    "href": "archived/GroupMeetingApril25/slides.html#extended-bose-hubbard-hamiltonian",
-    "title": "slides",
-    "section": "",
-    "text": "\\[\n\\begin{align}\n\\hat{H} =& -J \\sum_{j} (\\hat{b}_{j+1}^\\dagger \\hat{b}_j +  \\mathrm{h.c.}) \\\\\n&+ \\frac{U}{2} \\sum_{j} \\hat{n}_j(\\hat{n}_j - 1) \\\\\n&+ \\sum_{i &lt; j}^\\text{cutoff} \\frac{V_{ij}}{|i-j|^3}\\hat{n}_i \\hat{n}_j,\n\\end{align}\n\\]"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#initial-assumptions-about-the-model",
-    "href": "archived/GroupMeetingApril25/slides.html#initial-assumptions-about-the-model",
-    "title": "slides",
-    "section": "",
-    "text": "\\(J \\ll U, V\\)\n\\(U \\to \\infty\\)"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#formation-of-inter-site-bound-clusters",
-    "href": "archived/GroupMeetingApril25/slides.html#formation-of-inter-site-bound-clusters",
-    "title": "slides",
-    "section": "",
-    "text": "L. Barbiero et al, Out-of-equilibrium states and quasi-many-body localization in polar lattice gases, Phys. Rev. B 92, 180406(R) (2015)"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#when-is-u-to-infty-reasonable",
-    "href": "archived/GroupMeetingApril25/slides.html#when-is-u-to-infty-reasonable",
-    "title": "slides",
-    "section": "",
-    "text": "A. J. Daley et al, Repulsively Bound Atom Pairs: Overview, Simulations and Links, AIP Conf. Proc. 869, 212–218 (2006)\nM. Valiente and D. Petrosyan, Scattering resonances and two-particle bound states of the extended Hubbard model, Journal of Physics B, Vol. 42 (2009)"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#when-is-u-to-infty-reasonable-1",
-    "href": "archived/GroupMeetingApril25/slides.html#when-is-u-to-infty-reasonable-1",
-    "title": "slides",
-    "section": "",
-    "text": "height:500px"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#resonant-states",
-    "href": "archived/GroupMeetingApril25/slides.html#resonant-states",
-    "title": "slides",
-    "section": "",
-    "text": "Can we find states of equal energy to that of a cluster?"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#resonant-states-1",
-    "href": "archived/GroupMeetingApril25/slides.html#resonant-states-1",
-    "title": "slides",
-    "section": "",
-    "text": "Values of \\(U\\) where, at least, one resonant state exists at a given perturbation order (number of hops):"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#second-order-processes",
-    "href": "archived/GroupMeetingApril25/slides.html#second-order-processes",
-    "title": "slides",
-    "section": "",
-    "text": "From cluster to another state in two hops\n\\[\n\\hat{H}_{\\mathrm{eff},i\\neq j}^{(2)} = \\frac{1}{2}\\sum_l \\left(  \\frac{\\hat{V}_{il}\\hat{V}_{lj}}{E_i - E_l} + \\frac{\\hat{V}_{jl}\\hat{V}_{li}}{E_j - E_l} \\right)\n\\]"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#second-order-processes-1",
-    "href": "archived/GroupMeetingApril25/slides.html#second-order-processes-1",
-    "title": "slides",
-    "section": "",
-    "text": "From cluster to another state in two hops"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#center-of-mass-displacement",
-    "href": "archived/GroupMeetingApril25/slides.html#center-of-mass-displacement",
-    "title": "slides",
-    "section": "",
-    "text": "Examples of CoM conserving Fock states after two hops \\[\\ket{\\dots, 1, 0, 3, 0, 1, \\dots}\\] \\[\\ket{2, 0, 1, \\dots, 1, 0, 2}\\] \\[\\ket{1, 0, 1, \\dots, 1, 0, 2}\\]"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#expansion-for-different-uv",
-    "href": "archived/GroupMeetingApril25/slides.html#expansion-for-different-uv",
-    "title": "slides",
-    "section": "",
-    "text": "\\(V=10J, N = 8, M = 20\\)"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#quasi-many-body-localization",
-    "href": "archived/GroupMeetingApril25/slides.html#quasi-many-body-localization",
-    "title": "slides",
-    "section": "",
-    "text": "\\(V = 50J\\)\nW. Li et al, Disorderless Quasi-localization of Polar Gases in One-Dimensional Lattices, PRL 124, 010404 (2020)"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#quasi-many-body-localization-1",
-    "href": "archived/GroupMeetingApril25/slides.html#quasi-many-body-localization-1",
-    "title": "slides",
-    "section": "",
-    "text": "\\(V = 50J\\)"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#dimerization-resuts",
-    "href": "archived/GroupMeetingApril25/slides.html#dimerization-resuts",
-    "title": "slides",
-    "section": "",
-    "text": "height:400px\n\n\nL. Barbiero et al, Out-of-equilibrium states and quasi-many-body localization in polar lattice gases, Phys. Rev. B 92, 180406(R) (2015)"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#inhomogeneity-and-ipr",
-    "href": "archived/GroupMeetingApril25/slides.html#inhomogeneity-and-ipr",
-    "title": "slides",
-    "section": "",
-    "text": "height:400px\n\n\nL. Barbiero et al, Out-of-equilibrium states and quasi-many-body localization in polar lattice gases, Phys. Rev. B 92, 180406(R) (2015)"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#hilbert-space-shattering",
-    "href": "archived/GroupMeetingApril25/slides.html#hilbert-space-shattering",
-    "title": "slides",
-    "section": "",
-    "text": "Wei-Han Li et al, Hilbert Space Shattering and Disorder-Free Localization in Polar Lattice Gases, PRL 127, 260601 (2021)"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#first-passage-test",
-    "href": "archived/GroupMeetingApril25/slides.html#first-passage-test",
-    "title": "slides",
-    "section": "",
-    "text": "resonances"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#first-passage",
-    "href": "archived/GroupMeetingApril25/slides.html#first-passage",
-    "title": "slides",
-    "section": "",
-    "text": "resonances"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#approximations-with-mps",
-    "href": "archived/GroupMeetingApril25/slides.html#approximations-with-mps",
-    "title": "slides",
-    "section": "",
-    "text": "\\(N = 5, V = 10J, U = 17J, dt = 0.1/J\\)\n\n\n\nresonances"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#truncation-error",
-    "href": "archived/GroupMeetingApril25/slides.html#truncation-error",
-    "title": "slides",
-    "section": "",
-    "text": "resonances"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#first-passage-with-mps",
-    "href": "archived/GroupMeetingApril25/slides.html#first-passage-with-mps",
-    "title": "slides",
-    "section": "",
-    "text": "resonances"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#expansion-of-2x2-cluster",
-    "href": "archived/GroupMeetingApril25/slides.html#expansion-of-2x2-cluster",
-    "title": "slides",
-    "section": "",
-    "text": "Expansion can be anisotropic, depending on dipole polarization\n\n\n \n \n\n\n\n\n\\(J = 1 Hz, V = 10 J, \\theta= 0, \\phi = 0\\)\n\n \n\n\n\n\n\\(J = 1 Hz, V = 31 J, \\sin\\theta= \\sqrt{2/3}, \\phi = \\pi/4\\)\n\n\n\n\n\n\n\\(J = 1 Hz, V = 50 J, \\theta= 0.1982\\pi, \\phi = 0.7953\\pi\\)\n\n\n\n\nheight:350px"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#u-infty",
-    "href": "archived/GroupMeetingApril25/slides.html#u-infty",
-    "title": "slides",
-    "section": "",
-    "text": "Isotropic dipolar interactions"
-  },
-  {
-    "objectID": "archived/GroupMeetingApril25/slides.html#conclusions",
-    "href": "archived/GroupMeetingApril25/slides.html#conclusions",
-    "title": "slides",
-    "section": "",
-    "text": "We require \\(U &gt; 4V\\) to see confinement-related phenomena at the second-order time scales\nResults like dimerization, quasi-localization, and Hilbert space shattering are affected\n2D lattice can show anisotropic expansion rate at \\(U\\to\\infty\\)\nResults also dependent on finite U in a similar fashion"
-  },
-  {
-    "objectID": "slides.html",
-    "href": "slides.html",
-    "title": "Slides",
-    "section": "",
-    "text": "Date\n\n\n\nTitle\n\n\n\ninstitute\n\n\n\nCategories\n\n\n\n\n\n\n\n\nDec 2, 2025\n\n\nMicroscopic origin of the quantum Mpemba effect in integrable systems\n\n\nGroup Meeting UJ\n\n\narchived, internal, journal club, mpemba effect\n\n\n\n\n\n\nDec 1, 2025\n\n\nRelating Non-stabilizerness to Other Quantum Resources\n\n\nChaos i Informacja Kwantowa UJ\n\n\narchived, seminar, quantum information\n\n\n\n\n\n\nNov 1, 2025\n\n\nPractical Spin-Squeezing with Ultra-Cold Atoms in Optical Lattices\n\n\nIFPAN Scientific Council\n\n\narchived, defense, spin squeezing, PhD\n\n\n\n\n\n\nOct 27, 2025\n\n\nNon-stabilizerness in quantum-enhanced metrological protocols\n\n\nAOD Seminar at JU\n\n\narchived, seminar, quantum information\n\n\n\n\n\n\nApr 14, 2025\n\n\nSpin Squeezing and Bell Correlations in a t-J Model with Occupation Defects\n\n\nAOD Seminar at JU\n\n\narchived, seminar, quantum information\n\n\n\n\n\n\nApr 1, 2025\n\n\nStrict Conditions for Confinement in the extended Bose-Hubbard model\n\n\nGroup Meeting UJ\n\n\narchived, internal, dipolar, lattice\n\n\n\n\n\n\nJan 27, 2025\n\n\nPractical Spin-Squeezing with Ultra-Cold Atoms in Optical Lattices\n\n\nDoctoral Thesis Defense\n\n\narchived, defense, spin squeezing, PhD\n\n\n\n\n\n\nJul 30, 2024\n\n\nBig Group Meeting\n\n\nFerlaino’s Group, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nJul 8, 2024\n\n\nTheory Weekly Meeting\n\n\nFerlaino’s Theory Group, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nJun 24, 2024\n\n\nTheory Weekly Meeting\n\n\nFerlaino’s Theory Group, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nMay 20, 2024\n\n\nTheory Weekly Meeting\n\n\nFerlaino’s Theory Group, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nMar 25, 2024\n\n\nNetworking Session\n\n\nEPS Forum 2024, Berlin\n\n\narchived, Young Minds, EPS\n\n\n\n\n\n\nNov 30, 2023\n\n\nOptimal Spin Squeezing with extended Hubbard models\n\n\nUltra-cold Seminar, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n1 min\n\n\n\n\n\nJan 2, 2026\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n1 min\n\n\n\n\n\nDec 30, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "archived/GroupMeetingDec25/slides.html#mpemba-effect",
@@ -378,11 +203,263 @@
     "text": "Evolution of the entanglement asymmetry \\(\\Delta S_\\mathrm{A}\\) as a function of time for a subsystem of \\(l=100\\) sites. Different curves correspond to different initial states and the crossings signal the occurrence of QME. The figure reports the results for the interacting Rule 54 quantum cellular automaton. The results are obtained using Eq. (8)."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "This Is a Pipe",
+    "objectID": "slides.html",
+    "href": "slides.html",
+    "title": "Slides",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\nHarlow Malloc\n\n\nJan 2, 2026\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\nTristan O’Malley\n\n\nDec 30, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\n\nTitle\n\n\n\ninstitute\n\n\n\nCategories\n\n\n\n\n\n\n\n\nDec 2, 2025\n\n\nMicroscopic origin of the quantum Mpemba effect in integrable systems\n\n\nGroup Meeting UJ\n\n\narchived, internal, journal club, mpemba effect\n\n\n\n\n\n\nDec 1, 2025\n\n\nRelating Non-stabilizerness to Other Quantum Resources\n\n\nChaos i Informacja Kwantowa UJ\n\n\narchived, seminar, quantum information\n\n\n\n\n\n\nNov 1, 2025\n\n\nPractical Spin-Squeezing with Ultra-Cold Atoms in Optical Lattices\n\n\nIFPAN Scientific Council\n\n\narchived, defense, spin squeezing, PhD\n\n\n\n\n\n\nOct 27, 2025\n\n\nNon-stabilizerness in quantum-enhanced metrological protocols\n\n\nAOD Seminar at JU\n\n\narchived, seminar, quantum information\n\n\n\n\n\n\nApr 14, 2025\n\n\nSpin Squeezing and Bell Correlations in a t-J Model with Occupation Defects\n\n\nAOD Seminar at JU\n\n\narchived, seminar, quantum information\n\n\n\n\n\n\nApr 1, 2025\n\n\nStrict Conditions for Confinement in the extended Bose-Hubbard model\n\n\nGroup Meeting UJ\n\n\narchived, internal, dipolar, lattice\n\n\n\n\n\n\nJan 27, 2025\n\n\nPractical Spin-Squeezing with Ultra-Cold Atoms in Optical Lattices\n\n\nDoctoral Thesis Defense\n\n\narchived, defense, spin squeezing, PhD\n\n\n\n\n\n\nJul 30, 2024\n\n\nBig Group Meeting\n\n\nFerlaino’s Group, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nJul 8, 2024\n\n\nTheory Weekly Meeting\n\n\nFerlaino’s Theory Group, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nJun 24, 2024\n\n\nTheory Weekly Meeting\n\n\nFerlaino’s Theory Group, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nMay 20, 2024\n\n\nTheory Weekly Meeting\n\n\nFerlaino’s Theory Group, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nMar 25, 2024\n\n\nNetworking Session\n\n\nEPS Forum 2024, Berlin\n\n\narchived, Young Minds, EPS\n\n\n\n\n\n\nNov 30, 2023\n\n\nOptimal Spin Squeezing with extended Hubbard models\n\n\nUltra-cold Seminar, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html",
+    "href": "archived/GroupMeetingApril25/slides.html",
+    "title": "slides",
+    "section": "",
+    "text": "\\[\n\\begin{align}\n\\hat{H} =& -J \\sum_{j} (\\hat{b}_{j+1}^\\dagger \\hat{b}_j +  \\mathrm{h.c.}) \\\\\n&+ \\frac{U}{2} \\sum_{j} \\hat{n}_j(\\hat{n}_j - 1) \\\\\n&+ \\sum_{i &lt; j}^\\text{cutoff} \\frac{V_{ij}}{|i-j|^3}\\hat{n}_i \\hat{n}_j,\n\\end{align}\n\\]\n\n\n\n\n\n\\(J \\ll U, V\\)\n\\(U \\to \\infty\\)\n\n\n\n\n\n \nL. Barbiero et al, Out-of-equilibrium states and quasi-many-body localization in polar lattice gases, Phys. Rev. B 92, 180406(R) (2015)\n\n\n\n\nA. J. Daley et al, Repulsively Bound Atom Pairs: Overview, Simulations and Links, AIP Conf. Proc. 869, 212–218 (2006)\nM. Valiente and D. Petrosyan, Scattering resonances and two-particle bound states of the extended Hubbard model, Journal of Physics B, Vol. 42 (2009)\n\n\n\n\n\n\n\nheight:500px\n\n\n\n\n\n\nCan we find states of equal energy to that of a cluster?\n\n\n\n\n\nValues of \\(U\\) where, at least, one resonant state exists at a given perturbation order (number of hops):\n\n\n\n\n\nFrom cluster to another state in two hops\n\\[\n\\hat{H}_{\\mathrm{eff},i\\neq j}^{(2)} = \\frac{1}{2}\\sum_l \\left(  \\frac{\\hat{V}_{il}\\hat{V}_{lj}}{E_i - E_l} + \\frac{\\hat{V}_{jl}\\hat{V}_{li}}{E_j - E_l} \\right)\n\\]\n\n\n\n\nFrom cluster to another state in two hops\n\n\n\n\n\nExamples of CoM conserving Fock states after two hops \\[\\ket{\\dots, 1, 0, 3, 0, 1, \\dots}\\] \\[\\ket{2, 0, 1, \\dots, 1, 0, 2}\\] \\[\\ket{1, 0, 1, \\dots, 1, 0, 2}\\]\n\n\n\n\n\n\n\n\n\n\n\\(V=10J, N = 8, M = 20\\)\n\n\n\n\n\n\n\n\n\n\\(V = 50J\\)\nW. Li et al, Disorderless Quasi-localization of Polar Gases in One-Dimensional Lattices, PRL 124, 010404 (2020)\n\n\n\n\n\\(V = 50J\\)\n\n\n\n\n\n\n\n\nheight:400px\n\n\nL. Barbiero et al, Out-of-equilibrium states and quasi-many-body localization in polar lattice gases, Phys. Rev. B 92, 180406(R) (2015)\n\n\n\n\n\n\n\nheight:400px\n\n\nL. Barbiero et al, Out-of-equilibrium states and quasi-many-body localization in polar lattice gases, Phys. Rev. B 92, 180406(R) (2015)\n\n\n\n\n\n\n\n\n\n\nWei-Han Li et al, Hilbert Space Shattering and Disorder-Free Localization in Polar Lattice Gases, PRL 127, 260601 (2021)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresonances\n\n\n\n\n\n\n\n\n\nresonances\n\n\n\n\n\n\n\\(N = 5, V = 10J, U = 17J, dt = 0.1/J\\)\n\n\n\nresonances\n\n\n\n\n\n\n\n\n\nresonances\n\n\n\n\n\n\n\n\n\nresonances\n\n\n\n\n\n\n\n\nExpansion can be anisotropic, depending on dipole polarization\n\n\n \n \n\n\n\n\n\\(J = 1 Hz, V = 10 J, \\theta= 0, \\phi = 0\\)\n\n \n\n\n\n\n\\(J = 1 Hz, V = 31 J, \\sin\\theta= \\sqrt{2/3}, \\phi = \\pi/4\\)\n\n\n\n\n\n\n\\(J = 1 Hz, V = 50 J, \\theta= 0.1982\\pi, \\phi = 0.7953\\pi\\)\n\n\n\n\nheight:350px\n\n\n\n\n\n\n\nIsotropic dipolar interactions\n\n\n\n\n\n\nWe require \\(U &gt; 4V\\) to see confinement-related phenomena at the second-order time scales\nResults like dimerization, quasi-localization, and Hilbert space shattering are affected\n2D lattice can show anisotropic expansion rate at \\(U\\to\\infty\\)\nResults also dependent on finite U in a similar fashion"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#extended-bose-hubbard-hamiltonian",
+    "href": "archived/GroupMeetingApril25/slides.html#extended-bose-hubbard-hamiltonian",
+    "title": "slides",
+    "section": "",
+    "text": "\\[\n\\begin{align}\n\\hat{H} =& -J \\sum_{j} (\\hat{b}_{j+1}^\\dagger \\hat{b}_j +  \\mathrm{h.c.}) \\\\\n&+ \\frac{U}{2} \\sum_{j} \\hat{n}_j(\\hat{n}_j - 1) \\\\\n&+ \\sum_{i &lt; j}^\\text{cutoff} \\frac{V_{ij}}{|i-j|^3}\\hat{n}_i \\hat{n}_j,\n\\end{align}\n\\]"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#initial-assumptions-about-the-model",
+    "href": "archived/GroupMeetingApril25/slides.html#initial-assumptions-about-the-model",
+    "title": "slides",
+    "section": "",
+    "text": "\\(J \\ll U, V\\)\n\\(U \\to \\infty\\)"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#formation-of-inter-site-bound-clusters",
+    "href": "archived/GroupMeetingApril25/slides.html#formation-of-inter-site-bound-clusters",
+    "title": "slides",
+    "section": "",
+    "text": "L. Barbiero et al, Out-of-equilibrium states and quasi-many-body localization in polar lattice gases, Phys. Rev. B 92, 180406(R) (2015)"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#when-is-u-to-infty-reasonable",
+    "href": "archived/GroupMeetingApril25/slides.html#when-is-u-to-infty-reasonable",
+    "title": "slides",
+    "section": "",
+    "text": "A. J. Daley et al, Repulsively Bound Atom Pairs: Overview, Simulations and Links, AIP Conf. Proc. 869, 212–218 (2006)\nM. Valiente and D. Petrosyan, Scattering resonances and two-particle bound states of the extended Hubbard model, Journal of Physics B, Vol. 42 (2009)"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#when-is-u-to-infty-reasonable-1",
+    "href": "archived/GroupMeetingApril25/slides.html#when-is-u-to-infty-reasonable-1",
+    "title": "slides",
+    "section": "",
+    "text": "height:500px"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#resonant-states",
+    "href": "archived/GroupMeetingApril25/slides.html#resonant-states",
+    "title": "slides",
+    "section": "",
+    "text": "Can we find states of equal energy to that of a cluster?"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#resonant-states-1",
+    "href": "archived/GroupMeetingApril25/slides.html#resonant-states-1",
+    "title": "slides",
+    "section": "",
+    "text": "Values of \\(U\\) where, at least, one resonant state exists at a given perturbation order (number of hops):"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#second-order-processes",
+    "href": "archived/GroupMeetingApril25/slides.html#second-order-processes",
+    "title": "slides",
+    "section": "",
+    "text": "From cluster to another state in two hops\n\\[\n\\hat{H}_{\\mathrm{eff},i\\neq j}^{(2)} = \\frac{1}{2}\\sum_l \\left(  \\frac{\\hat{V}_{il}\\hat{V}_{lj}}{E_i - E_l} + \\frac{\\hat{V}_{jl}\\hat{V}_{li}}{E_j - E_l} \\right)\n\\]"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#second-order-processes-1",
+    "href": "archived/GroupMeetingApril25/slides.html#second-order-processes-1",
+    "title": "slides",
+    "section": "",
+    "text": "From cluster to another state in two hops"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#center-of-mass-displacement",
+    "href": "archived/GroupMeetingApril25/slides.html#center-of-mass-displacement",
+    "title": "slides",
+    "section": "",
+    "text": "Examples of CoM conserving Fock states after two hops \\[\\ket{\\dots, 1, 0, 3, 0, 1, \\dots}\\] \\[\\ket{2, 0, 1, \\dots, 1, 0, 2}\\] \\[\\ket{1, 0, 1, \\dots, 1, 0, 2}\\]"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#expansion-for-different-uv",
+    "href": "archived/GroupMeetingApril25/slides.html#expansion-for-different-uv",
+    "title": "slides",
+    "section": "",
+    "text": "\\(V=10J, N = 8, M = 20\\)"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#quasi-many-body-localization",
+    "href": "archived/GroupMeetingApril25/slides.html#quasi-many-body-localization",
+    "title": "slides",
+    "section": "",
+    "text": "\\(V = 50J\\)\nW. Li et al, Disorderless Quasi-localization of Polar Gases in One-Dimensional Lattices, PRL 124, 010404 (2020)"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#quasi-many-body-localization-1",
+    "href": "archived/GroupMeetingApril25/slides.html#quasi-many-body-localization-1",
+    "title": "slides",
+    "section": "",
+    "text": "\\(V = 50J\\)"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#dimerization-resuts",
+    "href": "archived/GroupMeetingApril25/slides.html#dimerization-resuts",
+    "title": "slides",
+    "section": "",
+    "text": "height:400px\n\n\nL. Barbiero et al, Out-of-equilibrium states and quasi-many-body localization in polar lattice gases, Phys. Rev. B 92, 180406(R) (2015)"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#inhomogeneity-and-ipr",
+    "href": "archived/GroupMeetingApril25/slides.html#inhomogeneity-and-ipr",
+    "title": "slides",
+    "section": "",
+    "text": "height:400px\n\n\nL. Barbiero et al, Out-of-equilibrium states and quasi-many-body localization in polar lattice gases, Phys. Rev. B 92, 180406(R) (2015)"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#hilbert-space-shattering",
+    "href": "archived/GroupMeetingApril25/slides.html#hilbert-space-shattering",
+    "title": "slides",
+    "section": "",
+    "text": "Wei-Han Li et al, Hilbert Space Shattering and Disorder-Free Localization in Polar Lattice Gases, PRL 127, 260601 (2021)"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#first-passage-test",
+    "href": "archived/GroupMeetingApril25/slides.html#first-passage-test",
+    "title": "slides",
+    "section": "",
+    "text": "resonances"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#first-passage",
+    "href": "archived/GroupMeetingApril25/slides.html#first-passage",
+    "title": "slides",
+    "section": "",
+    "text": "resonances"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#approximations-with-mps",
+    "href": "archived/GroupMeetingApril25/slides.html#approximations-with-mps",
+    "title": "slides",
+    "section": "",
+    "text": "\\(N = 5, V = 10J, U = 17J, dt = 0.1/J\\)\n\n\n\nresonances"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#truncation-error",
+    "href": "archived/GroupMeetingApril25/slides.html#truncation-error",
+    "title": "slides",
+    "section": "",
+    "text": "resonances"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#first-passage-with-mps",
+    "href": "archived/GroupMeetingApril25/slides.html#first-passage-with-mps",
+    "title": "slides",
+    "section": "",
+    "text": "resonances"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#expansion-of-2x2-cluster",
+    "href": "archived/GroupMeetingApril25/slides.html#expansion-of-2x2-cluster",
+    "title": "slides",
+    "section": "",
+    "text": "Expansion can be anisotropic, depending on dipole polarization\n\n\n \n \n\n\n\n\n\\(J = 1 Hz, V = 10 J, \\theta= 0, \\phi = 0\\)\n\n \n\n\n\n\n\\(J = 1 Hz, V = 31 J, \\sin\\theta= \\sqrt{2/3}, \\phi = \\pi/4\\)\n\n\n\n\n\n\n\\(J = 1 Hz, V = 50 J, \\theta= 0.1982\\pi, \\phi = 0.7953\\pi\\)\n\n\n\n\nheight:350px"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#u-infty",
+    "href": "archived/GroupMeetingApril25/slides.html#u-infty",
+    "title": "slides",
+    "section": "",
+    "text": "Isotropic dipolar interactions"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#conclusions",
+    "href": "archived/GroupMeetingApril25/slides.html#conclusions",
+    "title": "slides",
+    "section": "",
+    "text": "We require \\(U &gt; 4V\\) to see confinement-related phenomena at the second-order time scales\nResults like dimerization, quasi-localization, and Hilbert space shattering are affected\n2D lattice can show anisotropic expansion rate at \\(U\\to\\infty\\)\nResults also dependent on finite U in a similar fashion"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Tanausú Hernández-Yanes",
+    "section": "",
+    "text": "Postdoctoral theoretical physics researcher specialized in atomic physics with a passion for quantum mechanics, outreach, social entrepeneurship and open source projects.\nI am highly skilled in both theoretical and numerical calculations. My fields of interest are foundations of quantum mechanics, AMO physics, quantum information and thermodynamics.\nI have plenty of experience working with teams, both as a leader and as a proactive member."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Tanausú Hernández-Yanes",
+    "section": "Education",
+    "text": "Education\nPh.D. Physics Internship | Oct 23 - Oct 24\n\nUniversity of Innsbruck\nProject: Out of Equilibrium Dynamics of an Ultra-Cold Dipolar Bosonic Gas in a Two-Dimensional Optical Lattice\nSupervised by Prof. Francesca Ferlaino\n\nPh.D. Physics | Oct 20 - Jan 25\n\nInstitute of Physics PAS\nThesis: Practical Spin-Squeezing with Ultra-Cold Atoms in Optical Lattices\nSupervised by Dr. Hab. Emilia Witkowska\n\nM.Sc. Astrophysics Internship | Jul 19 - Sep 19\n\nUniversity of Lisbon\nProject: Kirigami Applied on Molecular Self-Folding Mechanisms\nSupervised by Dr. C.S. Dias and Dr. N. A. M. Araujo\n\nM.Sc. Astrophysics, Esp. in Estructure of Matter | Sep 16 - Sep 19\n\nUniversidad de La Laguna\nThesis: Quantum Langevin Equations, Energy Transport Properties in Harmonic Systems.\nSupervised by Prof. A. R. García and Dr. J. P. P. González\n\nB.Sc. Physics (Erasmus) | Sep 13 - Jun 14\n\nUniversity of Durham\nLab Project: Optical Properties of Ruby and CdSe Quantum Dots\nSupervised by Dr. M.R.C. Hunt\n\nB.Sc. Physics | Sep 11 - Sep 15\n\nUniversidad de La Laguna\nThesis: Heat Transport in Atomic Systems\nSupervised by: Prof. A. R. García"
+  },
+  {
+    "objectID": "cv.html#research-positions",
+    "href": "cv.html#research-positions",
+    "title": "Tanausú Hernández-Yanes",
+    "section": "Research Positions",
+    "text": "Research Positions\nAssistant Professor | Feb 25 - Dec 25\n\nJagiellonian University in Kraków\nProject: Size-Independent Nonstabilizerness in Metrological States\nProf. Jakub Zakrzewski’s group"
+  },
+  {
+    "objectID": "cv.html#publications",
+    "href": "cv.html#publications",
+    "title": "Tanausú Hernández-Yanes",
+    "section": "Publications",
+    "text": "Publications\nT. Hernández-Yanes, P. Sierant, J. Zakrzewski, and M. Płodzień, Non-stabilizerness in quantum-enhanced metrological protocols, arXiv:2510.01380 (2025)\nT. Hernández-Yanes, Y. Bamaara, A. Sinatra, and E. Witkowska, Bounds on detection of Bell correlations with entangled ultra-cold atoms in optical lattices under occupation defects, Phys. Rev. A 111, 023312 (2025)\nT. Hernández-Yanes, A. Niezgoda, and E. Witkowska, Exploring spin squeezing in the Mott insulating regime: Role of anisotropy, inhomogeneity, and hole doping, Phys. Rev. B 109, 214310 (2024)\nT. Hernández-Yanes, G. Žlabys, M. Płodzień, D. Burba, M. Mackoit Sinkevičienė, E. Witkowska and G. Juzeliūnas, Spin squeezing in open Heisenberg spin chains, Phys. Rev. B 108, 104301 (2023)\nM. Dziurawiec, T. Hernández-Yanes, M. Płodzień, M. Gajda, M. Lewenstein, and E. Witkowska, Accelerating many-body entanglement generation by dipolar interactions in the Bose-Hubbard model, Phys. Rev. A 107, 013311 (2023)\nT. Hernández-Yanes, M. Płodzień, M. Mackoit Sinkevičienė, G. Žlabys, G. Juzeliūnas, and E. Witkowska, One- and Two-Axis Squeezing via Laser Coupling in an Atomic Fermi-Hubbard Model, Phys. Rev. Lett. 129, 090403 (2022)"
+  },
+  {
+    "objectID": "cv.html#lectures",
+    "href": "cv.html#lectures",
+    "title": "Tanausú Hernández-Yanes",
+    "section": "Lectures",
+    "text": "Lectures\nComputational Physics of Cold Atoms | Oct 22 - Jan 23\n\nInstitute of Physics PAS\nT. Hernández-Yanes, M. Kruk, and E. Witkowska\nResponsible for preparing and imparting two thirds of the lectures of the course."
+  },
+  {
+    "objectID": "cv.html#awards-and-scholarships",
+    "href": "cv.html#awards-and-scholarships",
+    "title": "Tanausú Hernández-Yanes",
+    "section": "Awards and Scholarships",
+    "text": "Awards and Scholarships\nPh.D. Thesis Awarded with Distinction | Jan 25\nNAWA Prelidium BIS I Fellowship | Sep 23 - Mar 24\nBest Publication of Institute of Physics PAS 2022 | May 23"
+  },
+  {
+    "objectID": "cv.html#research-interests",
+    "href": "cv.html#research-interests",
+    "title": "Tanausú Hernández-Yanes",
+    "section": "Research Interests",
+    "text": "Research Interests\n\nFundamental Physics\nAMO Physics\nQuantum Metrology\nQuantum Information\nThermodynamics"
+  },
+  {
+    "objectID": "cv.html#other-interests",
+    "href": "cv.html#other-interests",
+    "title": "Tanausú Hernández-Yanes",
+    "section": "Other Interests",
+    "text": "Other Interests\n\nScience Communications\nSocial Entrepeneurship\nElectronics\nDigital Fabrication\nTravel"
+  },
+  {
+    "objectID": "cv.html#presentations",
+    "href": "cv.html#presentations",
+    "title": "Tanausú Hernández-Yanes",
+    "section": "Presentations",
+    "text": "Presentations\nSee Slides."
+  },
+  {
+    "objectID": "cv.html#software-development",
+    "href": "cv.html#software-development",
+    "title": "Tanausú Hernández-Yanes",
+    "section": "Software Development",
+    "text": "Software Development\nOn-Machine Inspection | Jun 23 - Sep 23\n\nGoogle Summer of Code 2023 - FreeCAD\nPython, C++\n\nExact Diagonalization Library “Hubbard” | Jan 21 - Present\n\nPython"
+  },
+  {
+    "objectID": "cv.html#outreach-and-event-organization",
+    "href": "cv.html#outreach-and-event-organization",
+    "title": "Tanausú Hernández-Yanes",
+    "section": "Outreach and Event Organization",
+    "text": "Outreach and Event Organization\nEPS Young Minds Program | Sep 19 - Mar 24\n\nAction Commitee member of the Young Minds program\n\nSpace Apps Challenge Tenerife 2017 | Jan 17 - Abr 17\n\nMain organizer\n\nScience Hack Day Tenerife | Sep 14 - May 16\n\nMain organizer, editions 2015 and 2016\nSponsors: FECYT, ULL, EPS and others\n\nOrotava Hackerspace | May 13 - May 19\n\nCofounder and President\n\nCOEFFIS VI (ULL) | Oct 12 - Sep 13\n\nOrganizing Commitee for the VI Physics Students Congress"
   },
   {
     "objectID": "posts/welcome/index.html",

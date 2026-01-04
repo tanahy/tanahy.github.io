@@ -6,6 +6,7 @@ listing:
   sort: "date desc"
   type: grid
   categories: true
+  fields: [image, title, subtitle, description, reading-time, date]
   sort-ui: false
   filter-ui: false
 page-layout: full

@@ -1,0 +1,183 @@
+---
+title: "Tanausú Hernández-Yanes"
+image: profile.jpg
+about:
+  template: trestles
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/tanausuhernandez/
+    - icon: gitlab
+      text: Gitlab
+      href: https://gitlab.com/tanahy
+    - icon: github
+      text: Github
+      href: https://github.com/tanahy
+    - icon: person-check
+      text: ORCID
+      href: https://orcid.org/0000-0001-8982-9277
+    - icon: journals
+      text: Arxiv
+      href: https://arxiv.org/search/?searchtype=author&query=Yanes\%2C+T+H
+---
+
+Postdoctoral theoretical physics researcher specialized in atomic physics with a passion for quantum mechanics, outreach, social entrepeneurship and open source projects.
+
+I am highly skilled in both theoretical and numerical calculations.
+My fields of interest are foundations of quantum mechanics, AMO physics, quantum information and thermodynamics. 
+
+I have plenty of experience working with teams, both as a leader and as a proactive member.
+
+
+## Education
+
+Ph.D. Physics Internship | Oct 23 - Oct 24
+
+- University of Innsbruck
+- Project: Out of Equilibrium Dynamics of an Ultra-Cold Dipolar Bosonic Gas in a Two-Dimensional Optical Lattice
+- Supervised by Prof. Francesca Ferlaino 
+
+Ph.D. Physics | Oct 20 - Jan 25
+
+- Institute of Physics PAS
+- Thesis: Practical Spin-Squeezing with Ultra-Cold Atoms in Optical Lattices
+- Supervised by Dr. Hab. Emilia Witkowska 
+
+M.Sc. Astrophysics Internship | Jul 19 - Sep 19
+
+- University of Lisbon
+- Project: Kirigami Applied on Molecular Self-Folding Mechanisms
+- Supervised by Dr. C.S. Dias and Dr. N. A. M. Araujo
+
+M.Sc. Astrophysics, Esp. in Estructure of Matter | Sep 16 - Sep 19
+
+- Universidad de La Laguna
+- Thesis: Quantum Langevin Equations, Energy Transport Properties in Harmonic Systems.
+- Supervised by Prof. A. R. García and Dr. J. P. P. González
+
+B.Sc. Physics (Erasmus) | Sep 13 - Jun 14
+
+- University of Durham
+- Lab Project: Optical Properties of Ruby and CdSe Quantum Dots
+- Supervised by Dr. M.R.C. Hunt
+
+B.Sc. Physics | Sep 11 - Sep 15
+
+- Universidad de La Laguna
+- Thesis: Heat Transport in Atomic Systems
+- Supervised by: Prof. A. R. García
+
+## Research Positions
+
+Assistant Professor | Feb 25 - Dec 25
+
+- Jagiellonian University in Kraków
+- Project: Size-Independent Nonstabilizerness in Metrological States
+- Prof. Jakub Zakrzewski's group
+
+## Publications
+
+
+**T. Hernández-Yanes**, P. Sierant, J. Zakrzewski, and M. Płodzień,
+*Non-stabilizerness in quantum-enhanced metrological protocols*,
+[arXiv:2510.01380 (2025)](https://doi.org/10.48550/arXiv.2510.01380)
+
+**T. Hernández-Yanes**, Y. Bamaara, A. Sinatra, and E. Witkowska,
+*Bounds on detection of Bell correlations with entangled ultra-cold atoms in optical lattices under occupation defects*,
+[Phys. Rev. A 111, 023312 (2025)](https://doi.org/10.1103/PhysRevA.111.023312)
+
+
+**T. Hernández-Yanes**, A. Niezgoda, and E. Witkowska,
+*Exploring spin squeezing in the Mott insulating regime: Role of anisotropy, inhomogeneity, and hole doping*,
+[Phys. Rev. B 109, 214310 (2024)](https://doi.org/10.1103/PhysRevB.109.214310)
+
+
+**T. Hernández-Yanes**, G. Žlabys, M. Płodzień, D. Burba, M. Mackoit Sinkevičienė, E. Witkowska and G. Juzeliūnas,
+*Spin squeezing in open Heisenberg spin chains*,
+[Phys. Rev. B 108, 104301 (2023)](https://doi.org/10.1103/PhysRevB.108.104301)
+
+
+M. Dziurawiec, **T. Hernández-Yanes**, M. Płodzień, M. Gajda, M. Lewenstein, and E. Witkowska,
+*Accelerating many-body entanglement generation by dipolar interactions in the Bose-Hubbard model*,
+[Phys. Rev. A 107, 013311 (2023)](https://doi.org/10.1103/PhysRevA.107.013311)
+
+
+**T. Hernández-Yanes**, M. Płodzień, M. Mackoit Sinkevičienė, G. Žlabys, G. Juzeliūnas, and E. Witkowska,
+*One- and Two-Axis Squeezing via Laser Coupling in an Atomic Fermi-Hubbard Model*,
+[Phys. Rev. Lett. 129, 090403 (2022)](https://doi.org/10.1103/PhysRevLett.129.090403)
+
+
+
+
+## Lectures
+
+
+[Computational Physics of Cold Atoms](https://gitlab.com/tanahy/cophyca) | Oct 22 - Jan 23
+
+- Institute of Physics PAS 
+- **T. Hernández-Yanes**, M. Kruk, and E. Witkowska
+- Responsible for preparing and imparting two thirds of the lectures of the course.
+
+## Awards and Scholarships
+
+Ph.D. Thesis Awarded with Distinction | Jan 25
+
+NAWA Prelidium BIS I Fellowship | Sep 23 - Mar 24
+
+Best Publication of Institute of Physics PAS 2022 | May 23
+
+## Research Interests
+
+- Fundamental Physics
+- AMO Physics
+- Quantum Metrology
+- Quantum Information
+- Thermodynamics
+
+## Other Interests
+
+- Science Communications
+- Social Entrepeneurship
+- Electronics
+- Digital Fabrication
+- Travel
+
+## Presentations
+
+See [Slides](slides.qmd).
+
+## Software Development
+
+
+[On-Machine Inspection](https://summerofcode.withgoogle.com/archive/2023/projects/gqlTqNAb) | Jun 23 - Sep 23
+
+- Google Summer of Code 2023 - FreeCAD
+- Python, C++
+
+[Exact Diagonalization Library "Hubbard"](https://gitlab.com/tanahy/1d-hubbard-model) | Jan 21 - Present
+
+- Python
+
+## Outreach and Event Organization
+
+
+EPS Young Minds Program | Sep 19 - Mar 24
+
+- Action Commitee member of the Young Minds program
+
+Space Apps Challenge Tenerife 2017 | Jan 17 - Abr 17
+
+- Main organizer
+
+Science Hack Day Tenerife | Sep 14 - May 16
+
+- Main organizer, editions 2015 and 2016
+- Sponsors: FECYT, ULL, EPS and others
+
+Orotava Hackerspace | May 13 - May 19
+
+- Cofounder and President
+
+COEFFIS VI (ULL) | Oct 12 - Sep 13
+
+- Organizing Commitee for the VI Physics Students Congress
