@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - "QISeminar25/slides.html"
 
 website:
   description: "Exploring reality, one model at a time."
