@@ -4,7 +4,6 @@ project:
 
 website:
   description: "Exploring reality, one model at a time."
-  feed: true
   site-url: https://tanahy.github.io
   title: "This Is a Pipe"
   navbar:
@@ -15,7 +14,7 @@ website:
         href: https://github.com/tanahy
       - icon: gitlab
         href: https://gitlab.com/tanahy
-  format:
+format:
   html:
     theme:
       - cosmo

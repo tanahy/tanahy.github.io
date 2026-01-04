@@ -1,6 +1,83 @@
+- title: "Microscopic origin of the quantum Mpemba effect in integrable systems"
+  author: "Colin Rylands, Katja Klobas, Filiberto Ares, Pasquale Calabrese, Sara Murciano, and Bruno Bertini"
+  date: 2025-12-02
+  institute: "Group Seminar UJ"
+  path: "archived/GroupMeetingDec25/slides.html"
+  categories: [archived, internal, journal club, mpemba effect]
+
 - title: "Non-stabilizerness in quantum-enhanced metrological protocols"
   author: Tanausú Hernández Yanes
   date: 2025-10-27
-  institute:  Atomic Physics Seminar at JU
+  institute: "AOD Seminar at JU"
   path: "archived/KrakowSeminar25_2/slides.html"
   categories: [archived, seminar, quantum information]
+
+- title: "Relating Non-stabilizerness to Other Quantum Resources"
+  author: Tanausú Hernández Yanes
+  date: 2025-12-01
+  institute: "Chaos i Informacja Kwantowa UJ"
+  path: "archived/QISeminar25/slides.html"
+  categories: [archived, seminar, quantum information]
+
+- title: "Spin Squeezing and Bell Correlations in a t-J Model with Occupation Defects"
+  author: Tanausú Hernández Yanes
+  date: 2025-04-14
+  institute: "AOD Seminar at JU"
+  path: "archived/KrakowSeminar25/slides.html"
+  categories: [archived, seminar, quantum information]
+
+- title: "Practical Spin-Squeezing with Ultra-Cold Atoms in Optical Lattices"
+  author: Tanausú Hernández Yanes
+  date: 2025-01-27
+  institute: "Doctoral Thesis Defense"
+  path: "archived/ThesisDefense/slides.html"
+  categories: [archived, defense, spin squeezing, PhD]
+
+- title: "Practical Spin-Squeezing with Ultra-Cold Atoms in Optical Lattices"
+  author: Tanausú Hernández Yanes
+  date: 2025-11-01
+  institute: "IFPAN Scientific Council"
+  path: "archived/ScientificCouncil24/slides.html"
+  categories: [archived, defense, spin squeezing, PhD]
+
+- title: "Theory Weekly Meeting"
+  author: Tanausú Hernández Yanes
+  date: 2024-07-08
+  institute: "Ferlaino's Theory Group, Innsbruck"
+  path: "archived/w28/w28.html"
+  categories: [archived, lattice, expansion, dipolar]
+
+- title: "Theory Weekly Meeting"
+  author: Tanausú Hernández Yanes
+  date: 2024-06-24
+  institute: "Ferlaino's Theory Group, Innsbruck"
+  path: "archived/w26/w26.html"
+  categories: [archived, lattice, expansion, dipolar]
+
+- title: "Theory Weekly Meeting"
+  author: Tanausú Hernández Yanes
+  date: 2024-05-20
+  institute: "Ferlaino's Theory Group, Innsbruck"
+  path: "archived/w21/w21.html"
+  categories: [archived, lattice, expansion, dipolar]
+
+- title: "Big Group Meeting"
+  author: Tanausú Hernández Yanes
+  date: 2024-07-30
+  institute: "Ferlaino's Group, Innsbruck"
+  path: "archived/BMJ24/slides.html"
+  categories: [archived, lattice, expansion, dipolar]
+
+- title: "Networking Session"
+  author: Tanausú Hernández Yanes
+  date: 2024-03-25
+  institute: "EPS Forum 2024, Berlin"
+  path: "archived/EPSForum24/slides.html"
+  categories: [archived, Young Minds, EPS]
+
+- title: "Optimal Spin Squeezing with extended Hubbard models"
+  author: Tanausú Hernández Yanes
+  date: 2023-11-30
+  institute: "Ultra-cold Seminar, Innsbruck"
+  path: "archived/Innsbruck23/slides.html"
+  categories: [archived, lattice, expansion, dipolar]
