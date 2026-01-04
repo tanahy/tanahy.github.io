@@ -14,11 +14,368 @@
     "text": "About this blog"
   },
   {
+    "objectID": "archived/GroupMeetingApril25/slides.html",
+    "href": "archived/GroupMeetingApril25/slides.html",
+    "title": "slides",
+    "section": "",
+    "text": "\\[\n\\begin{align}\n\\hat{H} =& -J \\sum_{j} (\\hat{b}_{j+1}^\\dagger \\hat{b}_j +  \\mathrm{h.c.}) \\\\\n&+ \\frac{U}{2} \\sum_{j} \\hat{n}_j(\\hat{n}_j - 1) \\\\\n&+ \\sum_{i &lt; j}^\\text{cutoff} \\frac{V_{ij}}{|i-j|^3}\\hat{n}_i \\hat{n}_j,\n\\end{align}\n\\]\n\n\n\n\n\n\\(J \\ll U, V\\)\n\\(U \\to \\infty\\)\n\n\n\n\n\n \nL. Barbiero et al, Out-of-equilibrium states and quasi-many-body localization in polar lattice gases, Phys. Rev. B 92, 180406(R) (2015)\n\n\n\n\nA. J. Daley et al, Repulsively Bound Atom Pairs: Overview, Simulations and Links, AIP Conf. Proc. 869, 212–218 (2006)\nM. Valiente and D. Petrosyan, Scattering resonances and two-particle bound states of the extended Hubbard model, Journal of Physics B, Vol. 42 (2009)\n\n\n\n\n\n\n\nheight:500px\n\n\n\n\n\n\nCan we find states of equal energy to that of a cluster?\n\n\n\n\n\nValues of \\(U\\) where, at least, one resonant state exists at a given perturbation order (number of hops):\n\n\n\n\n\nFrom cluster to another state in two hops\n\\[\n\\hat{H}_{\\mathrm{eff},i\\neq j}^{(2)} = \\frac{1}{2}\\sum_l \\left(  \\frac{\\hat{V}_{il}\\hat{V}_{lj}}{E_i - E_l} + \\frac{\\hat{V}_{jl}\\hat{V}_{li}}{E_j - E_l} \\right)\n\\]\n\n\n\n\nFrom cluster to another state in two hops\n\n\n\n\n\nExamples of CoM conserving Fock states after two hops \\[\\ket{\\dots, 1, 0, 3, 0, 1, \\dots}\\] \\[\\ket{2, 0, 1, \\dots, 1, 0, 2}\\] \\[\\ket{1, 0, 1, \\dots, 1, 0, 2}\\]\n\n\n\n\n\n\n\n\n\n\n\\(V=10J, N = 8, M = 20\\)\n\n\n\n\n\n\n\n\n\n\\(V = 50J\\)\nW. Li et al, Disorderless Quasi-localization of Polar Gases in One-Dimensional Lattices, PRL 124, 010404 (2020)\n\n\n\n\n\\(V = 50J\\)\n\n\n\n\n\n\n\n\nheight:400px\n\n\nL. Barbiero et al, Out-of-equilibrium states and quasi-many-body localization in polar lattice gases, Phys. Rev. B 92, 180406(R) (2015)\n\n\n\n\n\n\n\nheight:400px\n\n\nL. Barbiero et al, Out-of-equilibrium states and quasi-many-body localization in polar lattice gases, Phys. Rev. B 92, 180406(R) (2015)\n\n\n\n\n\n\n\n\n\n\nWei-Han Li et al, Hilbert Space Shattering and Disorder-Free Localization in Polar Lattice Gases, PRL 127, 260601 (2021)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nresonances\n\n\n\n\n\n\n\n\n\nresonances\n\n\n\n\n\n\n\\(N = 5, V = 10J, U = 17J, dt = 0.1/J\\)\n\n\n\nresonances\n\n\n\n\n\n\n\n\n\nresonances\n\n\n\n\n\n\n\n\n\nresonances\n\n\n\n\n\n\n\n\nExpansion can be anisotropic, depending on dipole polarization\n\n\n \n \n\n\n\n\n\\(J = 1 Hz, V = 10 J, \\theta= 0, \\phi = 0\\)\n\n \n\n\n\n\n\\(J = 1 Hz, V = 31 J, \\sin\\theta= \\sqrt{2/3}, \\phi = \\pi/4\\)\n\n\n\n\n\n\n\\(J = 1 Hz, V = 50 J, \\theta= 0.1982\\pi, \\phi = 0.7953\\pi\\)\n\n\n\n\nheight:350px\n\n\n\n\n\n\n\nIsotropic dipolar interactions\n\n\n\n\n\n\nWe require \\(U &gt; 4V\\) to see confinement-related phenomena at the second-order time scales\nResults like dimerization, quasi-localization, and Hilbert space shattering are affected\n2D lattice can show anisotropic expansion rate at \\(U\\to\\infty\\)\nResults also dependent on finite U in a similar fashion"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#extended-bose-hubbard-hamiltonian",
+    "href": "archived/GroupMeetingApril25/slides.html#extended-bose-hubbard-hamiltonian",
+    "title": "slides",
+    "section": "",
+    "text": "\\[\n\\begin{align}\n\\hat{H} =& -J \\sum_{j} (\\hat{b}_{j+1}^\\dagger \\hat{b}_j +  \\mathrm{h.c.}) \\\\\n&+ \\frac{U}{2} \\sum_{j} \\hat{n}_j(\\hat{n}_j - 1) \\\\\n&+ \\sum_{i &lt; j}^\\text{cutoff} \\frac{V_{ij}}{|i-j|^3}\\hat{n}_i \\hat{n}_j,\n\\end{align}\n\\]"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#initial-assumptions-about-the-model",
+    "href": "archived/GroupMeetingApril25/slides.html#initial-assumptions-about-the-model",
+    "title": "slides",
+    "section": "",
+    "text": "\\(J \\ll U, V\\)\n\\(U \\to \\infty\\)"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#formation-of-inter-site-bound-clusters",
+    "href": "archived/GroupMeetingApril25/slides.html#formation-of-inter-site-bound-clusters",
+    "title": "slides",
+    "section": "",
+    "text": "L. Barbiero et al, Out-of-equilibrium states and quasi-many-body localization in polar lattice gases, Phys. Rev. B 92, 180406(R) (2015)"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#when-is-u-to-infty-reasonable",
+    "href": "archived/GroupMeetingApril25/slides.html#when-is-u-to-infty-reasonable",
+    "title": "slides",
+    "section": "",
+    "text": "A. J. Daley et al, Repulsively Bound Atom Pairs: Overview, Simulations and Links, AIP Conf. Proc. 869, 212–218 (2006)\nM. Valiente and D. Petrosyan, Scattering resonances and two-particle bound states of the extended Hubbard model, Journal of Physics B, Vol. 42 (2009)"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#when-is-u-to-infty-reasonable-1",
+    "href": "archived/GroupMeetingApril25/slides.html#when-is-u-to-infty-reasonable-1",
+    "title": "slides",
+    "section": "",
+    "text": "height:500px"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#resonant-states",
+    "href": "archived/GroupMeetingApril25/slides.html#resonant-states",
+    "title": "slides",
+    "section": "",
+    "text": "Can we find states of equal energy to that of a cluster?"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#resonant-states-1",
+    "href": "archived/GroupMeetingApril25/slides.html#resonant-states-1",
+    "title": "slides",
+    "section": "",
+    "text": "Values of \\(U\\) where, at least, one resonant state exists at a given perturbation order (number of hops):"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#second-order-processes",
+    "href": "archived/GroupMeetingApril25/slides.html#second-order-processes",
+    "title": "slides",
+    "section": "",
+    "text": "From cluster to another state in two hops\n\\[\n\\hat{H}_{\\mathrm{eff},i\\neq j}^{(2)} = \\frac{1}{2}\\sum_l \\left(  \\frac{\\hat{V}_{il}\\hat{V}_{lj}}{E_i - E_l} + \\frac{\\hat{V}_{jl}\\hat{V}_{li}}{E_j - E_l} \\right)\n\\]"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#second-order-processes-1",
+    "href": "archived/GroupMeetingApril25/slides.html#second-order-processes-1",
+    "title": "slides",
+    "section": "",
+    "text": "From cluster to another state in two hops"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#center-of-mass-displacement",
+    "href": "archived/GroupMeetingApril25/slides.html#center-of-mass-displacement",
+    "title": "slides",
+    "section": "",
+    "text": "Examples of CoM conserving Fock states after two hops \\[\\ket{\\dots, 1, 0, 3, 0, 1, \\dots}\\] \\[\\ket{2, 0, 1, \\dots, 1, 0, 2}\\] \\[\\ket{1, 0, 1, \\dots, 1, 0, 2}\\]"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#expansion-for-different-uv",
+    "href": "archived/GroupMeetingApril25/slides.html#expansion-for-different-uv",
+    "title": "slides",
+    "section": "",
+    "text": "\\(V=10J, N = 8, M = 20\\)"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#quasi-many-body-localization",
+    "href": "archived/GroupMeetingApril25/slides.html#quasi-many-body-localization",
+    "title": "slides",
+    "section": "",
+    "text": "\\(V = 50J\\)\nW. Li et al, Disorderless Quasi-localization of Polar Gases in One-Dimensional Lattices, PRL 124, 010404 (2020)"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#quasi-many-body-localization-1",
+    "href": "archived/GroupMeetingApril25/slides.html#quasi-many-body-localization-1",
+    "title": "slides",
+    "section": "",
+    "text": "\\(V = 50J\\)"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#dimerization-resuts",
+    "href": "archived/GroupMeetingApril25/slides.html#dimerization-resuts",
+    "title": "slides",
+    "section": "",
+    "text": "height:400px\n\n\nL. Barbiero et al, Out-of-equilibrium states and quasi-many-body localization in polar lattice gases, Phys. Rev. B 92, 180406(R) (2015)"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#inhomogeneity-and-ipr",
+    "href": "archived/GroupMeetingApril25/slides.html#inhomogeneity-and-ipr",
+    "title": "slides",
+    "section": "",
+    "text": "height:400px\n\n\nL. Barbiero et al, Out-of-equilibrium states and quasi-many-body localization in polar lattice gases, Phys. Rev. B 92, 180406(R) (2015)"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#hilbert-space-shattering",
+    "href": "archived/GroupMeetingApril25/slides.html#hilbert-space-shattering",
+    "title": "slides",
+    "section": "",
+    "text": "Wei-Han Li et al, Hilbert Space Shattering and Disorder-Free Localization in Polar Lattice Gases, PRL 127, 260601 (2021)"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#first-passage-test",
+    "href": "archived/GroupMeetingApril25/slides.html#first-passage-test",
+    "title": "slides",
+    "section": "",
+    "text": "resonances"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#first-passage",
+    "href": "archived/GroupMeetingApril25/slides.html#first-passage",
+    "title": "slides",
+    "section": "",
+    "text": "resonances"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#approximations-with-mps",
+    "href": "archived/GroupMeetingApril25/slides.html#approximations-with-mps",
+    "title": "slides",
+    "section": "",
+    "text": "\\(N = 5, V = 10J, U = 17J, dt = 0.1/J\\)\n\n\n\nresonances"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#truncation-error",
+    "href": "archived/GroupMeetingApril25/slides.html#truncation-error",
+    "title": "slides",
+    "section": "",
+    "text": "resonances"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#first-passage-with-mps",
+    "href": "archived/GroupMeetingApril25/slides.html#first-passage-with-mps",
+    "title": "slides",
+    "section": "",
+    "text": "resonances"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#expansion-of-2x2-cluster",
+    "href": "archived/GroupMeetingApril25/slides.html#expansion-of-2x2-cluster",
+    "title": "slides",
+    "section": "",
+    "text": "Expansion can be anisotropic, depending on dipole polarization\n\n\n \n \n\n\n\n\n\\(J = 1 Hz, V = 10 J, \\theta= 0, \\phi = 0\\)\n\n \n\n\n\n\n\\(J = 1 Hz, V = 31 J, \\sin\\theta= \\sqrt{2/3}, \\phi = \\pi/4\\)\n\n\n\n\n\n\n\\(J = 1 Hz, V = 50 J, \\theta= 0.1982\\pi, \\phi = 0.7953\\pi\\)\n\n\n\n\nheight:350px"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#u-infty",
+    "href": "archived/GroupMeetingApril25/slides.html#u-infty",
+    "title": "slides",
+    "section": "",
+    "text": "Isotropic dipolar interactions"
+  },
+  {
+    "objectID": "archived/GroupMeetingApril25/slides.html#conclusions",
+    "href": "archived/GroupMeetingApril25/slides.html#conclusions",
+    "title": "slides",
+    "section": "",
+    "text": "We require \\(U &gt; 4V\\) to see confinement-related phenomena at the second-order time scales\nResults like dimerization, quasi-localization, and Hilbert space shattering are affected\n2D lattice can show anisotropic expansion rate at \\(U\\to\\infty\\)\nResults also dependent on finite U in a similar fashion"
+  },
+  {
     "objectID": "slides.html",
     "href": "slides.html",
     "title": "Slides",
     "section": "",
-    "text": "Date\n\n\n\nTitle\n\n\n\ninstitute\n\n\n\nCategories\n\n\n\n\n\n\n\n\nDec 2, 2025\n\n\nMicroscopic origin of the quantum Mpemba effect in integrable systems\n\n\nGroup Seminar UJ\n\n\narchived, internal, journal club, mpemba effect\n\n\n\n\n\n\nDec 1, 2025\n\n\nRelating Non-stabilizerness to Other Quantum Resources\n\n\nChaos i Informacja Kwantowa UJ\n\n\narchived, seminar, quantum information\n\n\n\n\n\n\nNov 1, 2025\n\n\nPractical Spin-Squeezing with Ultra-Cold Atoms in Optical Lattices\n\n\nIFPAN Scientific Council\n\n\narchived, defense, spin squeezing, PhD\n\n\n\n\n\n\nOct 27, 2025\n\n\nNon-stabilizerness in quantum-enhanced metrological protocols\n\n\nAOD Seminar at JU\n\n\narchived, seminar, quantum information\n\n\n\n\n\n\nApr 14, 2025\n\n\nSpin Squeezing and Bell Correlations in a t-J Model with Occupation Defects\n\n\nAOD Seminar at JU\n\n\narchived, seminar, quantum information\n\n\n\n\n\n\nJan 27, 2025\n\n\nPractical Spin-Squeezing with Ultra-Cold Atoms in Optical Lattices\n\n\nDoctoral Thesis Defense\n\n\narchived, defense, spin squeezing, PhD\n\n\n\n\n\n\nJul 30, 2024\n\n\nBig Group Meeting\n\n\nFerlaino’s Group, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nJul 8, 2024\n\n\nTheory Weekly Meeting\n\n\nFerlaino’s Theory Group, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nJun 24, 2024\n\n\nTheory Weekly Meeting\n\n\nFerlaino’s Theory Group, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nMay 20, 2024\n\n\nTheory Weekly Meeting\n\n\nFerlaino’s Theory Group, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nMar 25, 2024\n\n\nNetworking Session\n\n\nEPS Forum 2024, Berlin\n\n\narchived, Young Minds, EPS\n\n\n\n\n\n\nNov 30, 2023\n\n\nOptimal Spin Squeezing with extended Hubbard models\n\n\nUltra-cold Seminar, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\n\nTitle\n\n\n\ninstitute\n\n\n\nCategories\n\n\n\n\n\n\n\n\nDec 2, 2025\n\n\nMicroscopic origin of the quantum Mpemba effect in integrable systems\n\n\nGroup Meeting UJ\n\n\narchived, internal, journal club, mpemba effect\n\n\n\n\n\n\nDec 1, 2025\n\n\nRelating Non-stabilizerness to Other Quantum Resources\n\n\nChaos i Informacja Kwantowa UJ\n\n\narchived, seminar, quantum information\n\n\n\n\n\n\nNov 1, 2025\n\n\nPractical Spin-Squeezing with Ultra-Cold Atoms in Optical Lattices\n\n\nIFPAN Scientific Council\n\n\narchived, defense, spin squeezing, PhD\n\n\n\n\n\n\nOct 27, 2025\n\n\nNon-stabilizerness in quantum-enhanced metrological protocols\n\n\nAOD Seminar at JU\n\n\narchived, seminar, quantum information\n\n\n\n\n\n\nApr 14, 2025\n\n\nSpin Squeezing and Bell Correlations in a t-J Model with Occupation Defects\n\n\nAOD Seminar at JU\n\n\narchived, seminar, quantum information\n\n\n\n\n\n\nApr 1, 2025\n\n\nStrict Conditions for Confinement in the extended Bose-Hubbard model\n\n\nGroup Meeting UJ\n\n\narchived, internal, dipolar, lattice\n\n\n\n\n\n\nJan 27, 2025\n\n\nPractical Spin-Squeezing with Ultra-Cold Atoms in Optical Lattices\n\n\nDoctoral Thesis Defense\n\n\narchived, defense, spin squeezing, PhD\n\n\n\n\n\n\nJul 30, 2024\n\n\nBig Group Meeting\n\n\nFerlaino’s Group, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nJul 8, 2024\n\n\nTheory Weekly Meeting\n\n\nFerlaino’s Theory Group, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nJun 24, 2024\n\n\nTheory Weekly Meeting\n\n\nFerlaino’s Theory Group, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nMay 20, 2024\n\n\nTheory Weekly Meeting\n\n\nFerlaino’s Theory Group, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nMar 25, 2024\n\n\nNetworking Session\n\n\nEPS Forum 2024, Berlin\n\n\narchived, Young Minds, EPS\n\n\n\n\n\n\nNov 30, 2023\n\n\nOptimal Spin Squeezing with extended Hubbard models\n\n\nUltra-cold Seminar, Innsbruck\n\n\narchived, lattice, expansion, dipolar\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#mpemba-effect",
+    "href": "archived/GroupMeetingDec25/slides.html#mpemba-effect",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Mpemba effect",
+    "text": "Mpemba effect\n\nE. B. Mpemba and D. G. Osborne, Phys. Educ. 4, 172 (1969)"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#the-60s-where-wild",
+    "href": "archived/GroupMeetingDec25/slides.html#the-60s-where-wild",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "The 60’s where wild",
+    "text": "The 60’s where wild"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#the-60s-where-wild-1",
+    "href": "archived/GroupMeetingDec25/slides.html#the-60s-where-wild-1",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "The 60’s where wild",
+    "text": "The 60’s where wild"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#mpemba-effect-in-an-isolated-system",
+    "href": "archived/GroupMeetingDec25/slides.html#mpemba-effect-in-an-isolated-system",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Mpemba effect in an isolated system?",
+    "text": "Mpemba effect in an isolated system?\n\nConserved U(1) charge\nIntegrable systems were chosen, but not only\nAsymmetric charge state relaxes faster than symmetric one\n\nThermal Fluctuations \\(\\rightarrow\\) Quantum Fluctuations"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#setting",
+    "href": "archived/GroupMeetingDec25/slides.html#setting",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Setting",
+    "text": "Setting\n\\[ [H, Q] = 0 \\]\nInitial state: \\([\\rho=\\bra{\\Psi_0}\\ket{\\Psi_0}, Q] \\ne 0\\), \\([\\rho, H] \\ne 0\\)\nUnitary evolution \\(e^{-iHt}\\)\nA closed system will never relax to a stationary state\nStudy subsystem \\(A\\) of length \\(l\\)\nRestriction of \\(Q\\) to subsystem as \\(Q_A; \\quad q = \\tr[\\rho_A(0)Q_A]\\)"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#local-relaxation-ansatz",
+    "href": "archived/GroupMeetingDec25/slides.html#local-relaxation-ansatz",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Local relaxation ansatz",
+    "text": "Local relaxation ansatz\nUnder generic circumstances, however, we expect that locally the system relaxes to a stationary state, and, barring some exotic instances, that this stationary state restores the \\(U(1)\\) symmetry, i.e.,\n\\[\\lim_{t\\to\\infty} [\\rho_A(t), Q_A] = 0 \\]\nSymmetry restoration as coarse-grained quantum Mpemba effect (QME) proxy.\nCompare different broken symmetry states."
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#entanglement-asymmetry",
+    "href": "archived/GroupMeetingDec25/slides.html#entanglement-asymmetry",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Entanglement asymmetry",
+    "text": "Entanglement asymmetry\nRecently introduced measure that distills the interplay between the spreading of entanglement and the dynamics of a conserved charge.\n\\[ \\Delta S_A(t) = \\tr[\\rho_A(t)\\log(\\rho_A(t)) - \\rho_A(t)\\log(\\rho_{A,Q}(t))]\\] where symmetrized reduced density matrix \\(\\rho_{A,Q}(t) = \\sum_q \\Pi_q \\rho_A(t) \\Pi_q\\), and \\(\\Pi_q\\) is projector onto eigenspace of \\(Q_A\\) with eigenvalue \\(q\\)."
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#entanglement-asymmetry-1",
+    "href": "archived/GroupMeetingDec25/slides.html#entanglement-asymmetry-1",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Entanglement asymmetry",
+    "text": "Entanglement asymmetry\n\\[\\Delta S_A(t) \\ge 0\\]\n\\(\\Delta S_A(t) = 0\\); iif \\([\\rho_A(t), Q_A] = 0\\) (local symmetry restoration)\nWe expect \\(\\lim_{t\\to\\infty} \\Delta S_A(t) = 0\\).\nWe say \\(\\rho_{A,1}\\) is more symmetry broken than \\(\\rho_{A,2}\\) if \\(\\Delta S_{A,1} &gt; \\Delta S_{A,2}\\)."
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#conditions-for-quantum-mpemba-effect",
+    "href": "archived/GroupMeetingDec25/slides.html#conditions-for-quantum-mpemba-effect",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Conditions for quantum Mpemba effect",
+    "text": "Conditions for quantum Mpemba effect\n\n\\(\\Delta S_{A,1}(0) - \\Delta S_{A,2}(0) &gt; 0\\),\n\\(\\Delta S_{A,1}(\\tau) - \\Delta S_{A,2}(\\tau) &lt; 0\\),\n\nwhere \\(\\tau &gt; t_M\\), with \\(t_M\\) the Mpemba time."
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#generalization-of-criteria",
+    "href": "archived/GroupMeetingDec25/slides.html#generalization-of-criteria",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Generalization of criteria",
+    "text": "Generalization of criteria\nRényi entanglement asymmetry \\[ \\Delta S_A^{(n)} = \\frac{1}{1-n} \\left(  \\log\\tr(\\rho_{A,Q}^n) -  \\log\\tr(\\rho_{A}^n) \\right) \\]\nThe math trick: expand moments of \\(\\rho_{A,Q}, \\rho_A\\) in Fourier representation and then take limit \\(n\\to 1\\)."
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#generalization-of-criteria-1",
+    "href": "archived/GroupMeetingDec25/slides.html#generalization-of-criteria-1",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Generalization of criteria",
+    "text": "Generalization of criteria\n\\[\n\\tr[\\rho_{A,Q}^n(t)] = \\int_{-\\pi}^{\\pi} \\frac{d\\vb*{\\alpha}}{(2\\pi)^{n-1}}  \n\\underbrace{\\delta_p\\left(\\sum_{j=1}^n \\alpha_j\\right)}_{\\text{Dirac delta function}}\n\\underbrace{\\tr\\left[\\prod_{j=1}^n \\rho_A(t) e^{i\\alpha_j Q_A}\\right]}_{\\text{charged moments}}\n\\]\n\n\n\\(\\Pi_q = \\frac{1}{2\\pi} \\int_{-\\pi}^{\\pi} d\\alpha e^{i\\alpha(Q_A - q)}\\)"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#emergent-quasi-particle-picture",
+    "href": "archived/GroupMeetingDec25/slides.html#emergent-quasi-particle-picture",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Emergent quasi-particle picture",
+    "text": "Emergent quasi-particle picture\nSingle species, but extension is possible\n\\[ \\frac{\\tr[\\rho_{A,Q}^n]}{\\tr[\\rho_A^n] } = I_n + \\mathcal{O}[(n-1)^2] \\]\nwhere\n\\[\nI_n = \\frac{1}{(2\\pi)^{n-1}}\\int_{-\\pi}^{\\pi} d\\vb*{\\alpha}\n\\delta_p\\left(\\sum_{j=1}^n \\alpha_j\\right)\ne^{l\\sum_{j=1}^n \\int d\\lambda x_\\varsigma(\\lambda) f_{\\alpha_j}(\\lambda)}\n\\]\n\n\nQuasi-particle velocity: \\(v(\\lambda)\\), rescaled time: \\(\\varsigma = t / l\\), contribution to mode \\(\\lambda\\): \\(f_{\\alpha} (\\lambda)\\)\n\\(x_\\varsigma(\\lambda) = \\max[1-2|v(\\lambda)|\\varsigma, 0]\\)"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#series-expansion-of-i_n",
+    "href": "archived/GroupMeetingDec25/slides.html#series-expansion-of-i_n",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Series expansion of \\(I_n\\)",
+    "text": "Series expansion of \\(I_n\\)\nBy the Poisson summation formula to rewrite the periodic delta function: \\[ I_n = \\sum_{k=-\\infty}^{\\infty} J_{k}^n \\]\n\\[ J_k = \\int_{-\\pi}^{\\pi} \\frac{d\\alpha}{2\\pi} e^{ik\\alpha} \\exp\\left[l \\int d\\lambda x_\\varsigma(\\lambda) f_\\alpha (\\lambda)\\right] \\]\n\n\n\\(f_{\\alpha}^*(\\lambda) = f_{-\\alpha} (\\lambda)\\)\n\\(f_{\\alpha + 2\\pi} (\\lambda) = f_{\\alpha} (\\lambda)\\)"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#analytic-continuation-nto-z-in-mathbbc",
+    "href": "archived/GroupMeetingDec25/slides.html#analytic-continuation-nto-z-in-mathbbc",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Analytic continuation \\(n\\to z \\in \\mathbb{C}\\)",
+    "text": "Analytic continuation \\(n\\to z \\in \\mathbb{C}\\)\nAs function is real for \\(z\\in\\mathbb{R}\\): \\[\nI_n \\to I_z, \\quad J_k^n \\to \\frac{1}{2} \\left( e^{z\\log J_k} +  e^{z\\log J_k^*}\\right)\n\\]"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#reformulation-of-entanglement-asymmetry",
+    "href": "archived/GroupMeetingDec25/slides.html#reformulation-of-entanglement-asymmetry",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Reformulation of entanglement asymmetry",
+    "text": "Reformulation of entanglement asymmetry\n\\[ \\Delta S_A = - \\lim_{z\\to 1}[\\delta_z I_z] = - \\sum_{k=-\\infty}^{\\infty} Re[J_k(t) \\log J_k(t)] \\]"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#reformulation-of-conditions",
+    "href": "archived/GroupMeetingDec25/slides.html#reformulation-of-conditions",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Reformulation of conditions",
+    "text": "Reformulation of conditions\nExpand \\(\\Delta S_A(t)\\) for large \\(l\\) at \\(t=0\\) and \\(t \\gg l\\):\n\n\\(J_{q_{0,1},1}(0) - J_{q_{0,2},2}(0)  &lt; 0\\)\n\\(J_{0,1}(t) - J_{0,2}(t) &gt; 0\\)\n\nwhere \\(q_{0,j}\\) is the expectation value of the charge in \\(\\rho_{A,j}(0)\\)."
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#physical-interpretation",
+    "href": "archived/GroupMeetingDec25/slides.html#physical-interpretation",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Physical interpretation",
+    "text": "Physical interpretation\nChange of criteria:\n\\(\\Delta\\) charge asymmetry \\(\\to\\) \\(\\Delta\\) charge fluctuations"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#physical-interpretation-of-criteria-1",
+    "href": "archived/GroupMeetingDec25/slides.html#physical-interpretation-of-criteria-1",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Physical interpretation of criteria 1",
+    "text": "Physical interpretation of criteria 1\nLeading order in \\(l\\): \\[J_k(0) \\sim \\frac{1}{\\sqrt{\\pi\\sigma_0^2}} e^{-\\frac{(k-q_0)^2}{2\\sigma_0}}\\] where \\(q_0\\) is expectation value of charge at initial state, \\(\\sigma_0\\) variance of charge.\n\\[\nJ_{q_{0,j},j}(0) \\propto P(\\tr[\\rho_{A,j}(0) Q_A] = q_{0,j})\n\\]"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#physical-interpretation-of-criteria-2",
+    "href": "archived/GroupMeetingDec25/slides.html#physical-interpretation-of-criteria-2",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Physical interpretation of criteria 2",
+    "text": "Physical interpretation of criteria 2\nTo suppress charge fluctuations is to transport charge through boundaries\nExpectation: Larger fluctuations transported predominantly by faster modes \\(\\to\\) faster relaxation\n\\(J_{0,j}(t \\gg l) \\sim\\) slow modes transport no charge \\(\\to\\) no charge fluctuations"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#physical-interpretation-of-criteria-2-1",
+    "href": "archived/GroupMeetingDec25/slides.html#physical-interpretation-of-criteria-2-1",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Physical interpretation of criteria 2",
+    "text": "Physical interpretation of criteria 2\nFor example \\(J_{0}(0) \\propto P( \\tr[\\rho_A(0)Q_A]= 0)\\)\nFor \\(t\\ne 0\\), \\(x_{\\varsigma}(\\lambda)\\) filters out fast modes. At large times\n\\[\n\\exp\\left[ l \\int d\\lambda x_\\varsigma(\\lambda) f_\\alpha(\\lambda)\\right] \\sim \\tr\\left[ \\rho_A e^{i\\alpha Q_\\mathrm{sl}} \\right]\n\\]\nConclusion: slow modes are last to relax, faster relaxation when less involved in dynamics"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#free-fermions",
+    "href": "archived/GroupMeetingDec25/slides.html#free-fermions",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Free fermions",
+    "text": "Free fermions\n\\[ H = \\int_{-\\pi}^\\pi d\\lambda \\overbrace{\\epsilon(\\lambda)}^\\text{disp. rel.} \\eta_\\lambda^\\dagger \\underbrace{\\eta_\\lambda}_\\text{ann. op.} \\]\n\\[ Q = \\int d\\lambda \\eta_\\lambda^\\dagger \\eta_\\lambda \\]"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#free-fermions-1",
+    "href": "archived/GroupMeetingDec25/slides.html#free-fermions-1",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Free fermions",
+    "text": "Free fermions\nInitial configuration is a squeezed state\n\\[ \\ket{\\Psi_0} = \\exp\\left[ - \\int_0^\\pi d\\lambda \\mathcal{M}(\\lambda) \\eta_\\lambda^\\dagger \\eta_{-\\lambda}^\\dagger\\right] \\ket{0} \\]\nIn this case, \\(I_n\\) is exact and we identify\n\\(v(\\lambda) = \\epsilon'(\\lambda)\\), \\(f_\\alpha(\\lambda) = \\log(1-\\vartheta(\\lambda)-\\vartheta(\\lambda)e^{2i\\alpha})/(4\\pi)\\)\n\n\n\\(\\mathcal{M}(\\lambda)\\) is arbitrary real odd function\n\\(\\eta_\\lambda \\ket{0} = 0; \\forall \\lambda\\)\n\\(\\vartheta(\\lambda) = \\frac{\\mathcal{M}(\\lambda)^2}{1+\\mathcal{M}(\\lambda)^2}\\): quasi-particle occupation function"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#free-fermions-2",
+    "href": "archived/GroupMeetingDec25/slides.html#free-fermions-2",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Free fermions",
+    "text": "Free fermions\nFor specific choice of \\(v, \\mathcal{M}\\):\n\\[ J_0 \\simeq 1 - \\frac{\\vartheta''(0)}{48\\pi} l \\Lambda_\\varsigma^3 \\]\nQME occurs if:\n\n\\(\\mathcal{X}_1 &gt; \\mathcal{X}_2\\)\n\\(\\vartheta''_2(0) &gt; \\vartheta''_1(0)\\)\n\n\n\n\\(\\Lambda_\\varsigma = \\frac{1}{2\\varsigma v'(0)}\\): slowest modes window"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#section",
+    "href": "archived/GroupMeetingDec25/slides.html#section",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "",
+    "text": "Evolution of the entanglement asymmetry \\(\\Delta S_\\mathrm{A}\\) as a function of time for a subsystem of \\(l=100\\) sites. Different curves correspond to different initial states and the crossings signal the occurrence of QME. The figure reports the results for a free fermionic system. The results are obtained using Eq. (8)."
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#quantum-cellular-automaton",
+    "href": "archived/GroupMeetingDec25/slides.html#quantum-cellular-automaton",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "Quantum Cellular Automaton",
+    "text": "Quantum Cellular Automaton\nQuantum cellular automaton Rule 54. This is a locally interacting chain of L spin-1/2 variables (or qubits) where the time evolution happens in discrete time steps. Rule 54 is Bethe ansatz integrable and, therefore, supports stable quasiparticles.\nTime is discretized, goes in steps"
+  },
+  {
+    "objectID": "archived/GroupMeetingDec25/slides.html#section-1",
+    "href": "archived/GroupMeetingDec25/slides.html#section-1",
+    "title": "Microscopic origin of the quantum Mpemba effect in integrable systems",
+    "section": "",
+    "text": "Evolution of the entanglement asymmetry \\(\\Delta S_\\mathrm{A}\\) as a function of time for a subsystem of \\(l=100\\) sites. Different curves correspond to different initial states and the crossings signal the occurrence of QME. The figure reports the results for the interacting Rule 54 quantum cellular automaton. The results are obtained using Eq. (8)."
   },
   {
     "objectID": "index.html",
