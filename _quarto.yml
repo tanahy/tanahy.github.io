@@ -3,6 +3,9 @@ project:
   output-dir: docs
   resources:
     - "QISeminar25/slides.html"
+    - "archived/*"
+    - "archived/*/*"
+    - "archived/*/*/*"
 
 website:
   description: "Exploring reality, one model at a time."

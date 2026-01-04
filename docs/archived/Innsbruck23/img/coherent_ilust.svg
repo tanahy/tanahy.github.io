@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128.64236mm"
+   height="76.493179mm"
+   viewBox="0 0 128.64236 76.493179"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="coherent_ilust.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.69041105"
+     inkscape:cx="207.12299"
+     inkscape:cy="477.25192"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g331989" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="TriangleOutS"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutS"
+       inkscape:isstock="true"
+       viewBox="0 0 2.1297632 2.462154"
+       markerWidth="5"
+       markerHeight="5"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.2)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path20756" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutS"
+       inkscape:isstock="true"
+       viewBox="0 0 2.1297632 2.462154"
+       markerWidth="5"
+       markerHeight="5"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.2)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Dot"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dot"
+       markerWidth="3"
+       markerHeight="3"
+       viewBox="0 0 5.6666667 5.6666667"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5,0 C 5,2.76 2.76,5 0,5 -2.76,5 -5,2.76 -5,0 c 0,-2.76 2.3,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="Dot1"
+         sodipodi:nodetypes="sssss" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-50.021818,-22.131369)">
+    <g
+       id="g331989"
+       transform="translate(-543.24416,-161.84945)"
+       style="display:inline;stroke-linecap:butt;stroke-linejoin:round">
+      <g
+         id="g155586"
+         transform="translate(-2.9999592e-6)"
+         style="stroke-linecap:butt;stroke-linejoin:round">
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:0.647999;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+           id="path123130"
+           cx="630.73999"
+           cy="222.99998"
+           r="26.280006" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.647999;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#TriangleOutS);paint-order:fill markers stroke"
+           d="M 630.73999,260.15 V 185.84999"
+           id="path123186" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.647999;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#TriangleOutS);paint-order:fill markers stroke"
+           d="m 593.58998,222.99999 h 74.30001"
+           id="path155575" />
+      </g>
+      <circle
+         style="fill:none;stroke:#009100;stroke-width:0.647999;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="path155700"
+         cx="630.73999"
+         cy="223"
+         r="17.22312" />
+      <path
+         style="fill:none;stroke:#cccccc;stroke-width:0.698862;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="circle155702"
+         sodipodi:type="arc"
+         sodipodi:cx="630.73999"
+         sodipodi:cy="223"
+         sodipodi:rx="18.574999"
+         sodipodi:ry="18.574999"
+         sodipodi:start="5.3947053"
+         sodipodi:end="5.7733922"
+         sodipodi:arc-type="arc"
+         d="m 642.45324,208.58368 a 18.574999,18.574999 0 0 1 4.49985,5.35178"
+         sodipodi:open="true" />
+      <path
+         style="fill:none;stroke:#cccccc;stroke-width:0.647999;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         d="m 645.01516,211.11513 c 13.08855,-12.74861 25.17252,-10.61654 25.17252,-10.61654"
+         id="path155704"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:Coolvetica;-inkscape-font-specification:'Coolvetica, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.647999;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         x="675.26581"
+         y="203.38219"
+         id="text155757"><tspan
+           sodipodi:role="line"
+           id="tspan155755"
+           style="font-size:11.2889px;fill:#000000;stroke:none;stroke-width:0.648"
+           x="675.26581"
+           y="203.38219">Variance</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:11.2889px;fill:#000000;stroke:none;stroke-width:0.648"
+           x="675.26581"
+           y="217.49332"
+           id="tspan533928">Contour</tspan></text>
+      <path
+         style="fill:none;stroke:#cccccc;stroke-width:0.647999;stroke-linecap:round;stroke-linejoin:round;marker-start:url(#Dot);paint-order:fill markers stroke"
+         d="m 630.73996,222.99999 c 23.06728,19.68472 39.42003,18.57501 39.42003,18.57501"
+         id="path155759"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1.25;font-family:Coolvetica;-inkscape-font-specification:'Coolvetica, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.647999;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+         x="674.39337"
+         y="244.74995"
+         id="text155815"><tspan
+           sodipodi:role="line"
+           id="tspan155813"
+           style="fill:#000000;stroke:none;stroke-width:0.648"
+           x="674.39337"
+           y="244.74995">Mean Spin </tspan><tspan
+           sodipodi:role="line"
+           style="fill:#000000;stroke:none;stroke-width:0.648"
+           x="674.39337"
+           y="258.86108"
+           id="tspan533930">Direction</tspan></text>
+    </g>
+  </g>
+</svg>
