@@ -10,7 +10,10 @@ website:
   site-url: https://tanahy.github.io
   title: "This Is a Pipe"
   navbar:
-    right:
+    search: false
+    left:
+      - text: "Blog"
+        href: index.qmd
       - slides.qmd
       - text: "CV"
         href: cv.qmd

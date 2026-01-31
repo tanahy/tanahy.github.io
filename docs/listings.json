@@ -1,13 +1,15 @@
 [
   {
+    "listing": "/slides.html",
+    "items": [
+      "/slides/EAS26/slides.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/posts/post-with-code/index.html",
       "/posts/welcome/index.html"
     ]
-  },
-  {
-    "listing": "/slides.html",
-    "items": []
   }
 ]
